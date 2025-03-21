@@ -1114,7 +1114,7 @@ footer {
 }
 
 .video-card2 {
-    width: 12px; /* Adjusted width */
+    width: 120px; /* Adjusted width */
     height: auto; /* Keep proportional height */
     background: rgba(190, 0, 0, 0.3);
     padding: 5px;
