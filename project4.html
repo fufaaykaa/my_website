@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Taya Malakhova</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="project5">
+
+    <header>
+        <h1>Project 4</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Banner with Links -->
+    <section class="banner">
+        <div class="links">
+            <a href="https://fufaaykaa.itch.io/medieval-21" target="_blank"><img src="icons/play.png" alt="Play Game"></a>          
+        </div>
+    </section>
+
+    <!-- Overview + Slideshow -->
+    <section class="overview">
+        <div class="overview-text">
+            <h2>Overview</h2>
+            <p>"Medieval 21" is a cozy, charming version of a classic "Blackjack". Set in medieval atmosphere, stunning pixel art, cards with a unique design, combined with smooth mechanics bring a fresh twist to a beloved classic, what can be better? Try it out yourself!
+            </p>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow" id="slideshow-right">
+                <img class="slide active" src="images/project5/slide1.png" alt="Screenshot 1">
+                <img class="slide" src="images/project5/slide2.png" alt="Screenshot 2">
+                <img class="slide" src="images/project5/slide3.png" alt="Screenshot 3">
+                <img class="slide" src="images/project5/slide4.png" alt="Screenshot 4">
+                <button class="prev" onclick="changeSlide(-1, 'slideshow-right')">❮</button>
+                <button class="next" onclick="changeSlide(1, 'slideshow-right')">❯</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="collapsible-section">
+        <button class="collapsible">My Contributions ▼</button>
+        <div class="content">
+    
+            <div class="contributions-container">
+                
+                <!-- First Row: Card Design & Background Design -->
+                <div class="row">
+                    <div class="task-box">
+                        <h3>🎴 Card Design</h3>
+                        <ul>
+                            <li>Queen card character</li>
+                            <li>King card character</li>
+                            <li>Jack card character</li>
+                            <li>Joker card character</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="task-box">
+                        <h3>🏰 Background Design</h3>
+                        <ul>
+                            <li>Castle asset</li>
+                            <li>Animated skeletons</li>
+                            <li>Animated fire</li>
+                            <li>Castle window animations</li>
+                            <li>Particle system for stars</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Second Row: Lighting & Sound -->
+                <div class="row">
+                    <div class="task-box">
+                        <h3>💡 Lighting Setup</h3>
+                        <ul>
+                            <li>Used **Unity URP 2D Light Package**</li>
+                            <li>Set up lights for castle, fire, and scene</li>
+                        </ul>
+                    </div>
+    
+                    <div class="task-box">
+                        <h3>🔊 Sound Implementation</h3>
+                        <ul>
+                            <li>AudioManager for background music</li>
+                            <li>Losing life sound</li>
+                            <li>Score message sounds</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- Third Row: UI & Main Menu (Full Width) -->
+                <div class="task-box full-width">
+                    <h3>🎨 UI Design</h3>
+                    <ul>
+                        <li>Buttons & Score messages</li>
+                        <li>Life indicators (Hearts)</li>
+                        <li>Main Menu & Credits Design</li>
+                        <li>Card Pile Animation</li>
+                    </ul>
+                </div>
+    
+                <div class="task-box full-width">
+                    <h3>📜 Main Menu Design</h3>
+                    <ul>
+                        <li>Scene transition animations</li>
+                        <li>Character animations on cards</li>
+                        <li>Showing credits animation</li>
+                    </ul>
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <p>© 2025 Taya Malakhova</p>
+    </footer>
+
+</body>
+</html>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">

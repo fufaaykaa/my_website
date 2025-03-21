@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Taya Malakhova</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="project4">
+
+    <header>
+        <h1>Project 5</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner with Links -->
+    <section class="banner">
+        <div class="links">
+            <a href="https://miketakashi.itch.io/dark-light" target="_blank"><img src="icons/play.png" alt="Play Game"></a>
+            <a href="documents/darklight_doc.pdf" target="_blank">
+                <img src="icons/documentation.png" alt="Open Documentation" width="50">
+            </a>            
+            <a href="https://youtu.be/7ABVSjjRa0k?si=1igYsNm_51jWFeu2" target="_blank"><img src="icons/trailer.png" alt="Trailer"></a>
+        </div>
+    </section>
+
+    <!-- Overview + Slideshow -->
+    <section class="overview4">
+        <div class="overview-text">
+            <h2>Overview</h2>
+            <p>What Dark Light hopes to be is a game where you solve puzzles to uncover the story of a post-apocalyptic world where the sun disappeared.
+            </p>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow" id="slideshow-right">
+                <img class="slide active" src="images/project4/slide1.png" alt="Screenshot 1">
+                <img class="slide active" src="images/project4/slide2.png" alt="Screenshot 2">
+                <img class="slide active" src="images/project4/slide3.png" alt="Screenshot 3">
+                <img class="slide active" src="images/project4/slide4.png" alt="Screenshot 4">
+                <img class="slide active" src="images/project4/slide5.png" alt="Screenshot 5">
+                <img class="slide active" src="images/project4/slide6.png" alt="Screenshot 6">
+                <img class="slide active" src="images/project4/slide7.png" alt="Screenshot 7">
+                <button class="prev" onclick="changeSlide(-1, 'slideshow-right')">❮</button>
+                <button class="next" onclick="changeSlide(1, 'slideshow-right')">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="collapsible-section">
+        <button class="collapsible">Game Features ▼</button>
+        <div class="content features-section">
+            <div class="features-container">
+    
+                <!-- Feature 1 -->
+                <div class="feature-item">
+                    <div class="feature-circle">
+                        <h3>Puzzle-<br>Solving <br>Mechanics</h3>
+                    </div>
+                    <ul class="feature-details">
+                        <li>Multiple puzzles in the game</li>
+                        <li>Each puzzle is unique and has its own mechanic and purpose</li>
+                        <li>Puzzles are integrated in the narrative</li>
+                        <li>Puzzles influence the environment and progression through the game</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 2 -->
+                <div class="feature-item">
+                    <div class="feature-circle">
+                        <h3>Exploration &<br> Environmental <br>Storytelling</h3>
+                    </div>
+                    <ul class="feature-details">
+                        <li>The narrative idea is explained to the players through locations and objects</li>
+                        <li>The more the player explores, the more detailed and clear the story becomes</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 3 -->
+                <div class="feature-item">
+                    <div class="feature-circle">
+                        <h3>Atmospheric <br>World Design</h3>
+                    </div>
+                    <ul class="feature-details">
+                        <li>The main locations translate the atmosphere of the post-apocalyptic world</li>
+                        <li>Uses hand-crafted 3D models, minimalistic textures, and a small amount of light</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 4 -->
+                <div class="feature-item">
+                    <div class="feature-circle">
+                        <h3>Interactive &<br> Animated <br>Environment</h3>
+                    </div>
+                    <ul class="feature-details">
+                        <li>Objects and locations react to player's interactions</li>
+                        <li>Examples: Electricity box, fences, barn doors, street lights</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 5 -->
+                <div class="feature-item">
+                    <div class="feature-circle">
+                        <h3>Dialogue <br>System</h3>
+                    </div>
+                    <ul class="feature-details">
+                        <li>Guides the player through the mystery and adds details to the story</li>
+                        <li>Focuses the player's attention on the main questions</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 6 -->
+                <div class="feature-item">
+                    <div class="feature-circle">
+                        <h3>Immersive <br>Sound &<br> Visual Effects</h3>
+                    </div>
+                    <ul class="feature-details">
+                        <li>Lighting and shading simulate a dark, eerie atmosphere</li>
+                        <li>Sound design enhances immersion with ambient and environmental sounds</li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>    
+    
+
+    <section class="collapsible-section">
+        <button class="collapsible">My Contributions ▼</button>
+        <div class="content">
+            <div class="contributions-grid">
+                <!-- First Row -->
+                <div class="contribution-box">
+                    <h3>3D Modeling</h3>
+                    <ul>
+                        <li><strong>Farm Location:</strong> Barn, greenhouses, tractor, 3 gardens, 4 types of bushes, 3 types of trees, 3 types of fences, 2 types of boxes, street lights, gnome, ladder, and all other models in the "Farm" location.</li>
+                        <li><strong>Water Elements:</strong> Created water model and effects.</li>
+                        <li><strong>Magic Fountain Location:</strong> Designed the fountain, flowers, and trees with flowers.</li>
+                        <li><strong>Forest Location:</strong> Fishing rod, puzzle models for the cave, 2 types of fences, and reused some trees and bushes from the farm.</li>
+                    </ul>
+                </div>
+                <div class="contribution-box">
+                    <h3>Animations</h3>
+                    <ul>
+                        <li>Character waking up in the beginning.</li>
+                        <li>Switcher turning and lighting in the greenhouse.</li>
+                        <li>Opening and closing of the electricity box.</li>
+                        <li>Fence fixing in the garden.</li>
+                        <li>Gnome's hat movement.</li>
+                        <li>Barn doors opening animation.</li>
+                        <li>Street lights and tractor lights switching on.</li>
+                        <li>Water movement in the fountain.</li>
+                        <li>Sun rising back into the sky.</li>
+                        <li>Particle systems.</li>
+                        <li>Additional animations throughout the game.</li>
+                    </ul>
+                </div>
+                <div class="contribution-box">
+                    <h3>Texturing</h3>
+                    <ul>
+                        <li>Created textures and UV mapping for all 3D models.</li>
+                        <li>Designed ground textures for different locations.</li>
+                    </ul>
+                </div>
+    
+                <!-- Second Row -->
+                <div class="contribution-box">
+                    <h3>Coding</h3>
+                    <ul>
+                        <li>Implemented the dialogue system.</li>
+                        <li>Programmed triggers for animations.</li>
+                        <li>Developed doors opening and closing mechanics.</li>
+                        <li>Created text prompts for controls that appear and disappear.</li>
+                    </ul>
+                </div>
+                <div class="contribution-box">
+                    <h3>User Interface (UI)</h3>
+                    <ul>
+                        <li>Designed the interactive panel with a code entry system.</li>
+                        <li>Designed dialogues UI.</li>
+                        <li>Created and managed the final cutscene.</li>
+                    </ul>
+                </div>
+                <div class="contribution-box">
+                    <h3>Sound Design</h3>
+                    <ul>
+                        <li>Added sounds for the animations.</li>
+                        <li>Set up audio manager.</li>
+                        <li>3D audio.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <p>© 2025 Taya Malakhova</p>
+    </footer>
+
+</body>
+</html>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">

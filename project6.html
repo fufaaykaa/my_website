@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 6 - Taya Malakhova</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="project6">
+
+    <header>
+        <h1>My 3D Modeling and Animation projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Split Layout -->
+    <div class="split-container">
+        
+        <!-- Left Section - Project A -->
+        <section class="split-section left">
+            <h2>Project 1</h2>
+            <div class="banner">
+                <div class="links">
+                    <a href="https://fufaaykaa.itch.io/escaping-elephant" target="_blank"><img src="icons/play.png" alt="Play"></a>
+                </div>
+            </div>
+            <div class="overview">
+                <p>"Escaping Elephant" is an endless runner, where a little sad elephant is trying to escape from the circus. This game was created as a part of the "Tools and Technologies" course in the "University of Europe for Applied Sciences". The main character's model (elephant), model of the collectibles and 3 types of obstacles, model of the circus, textures, all animations of the character and obstacles, sound effects were created by the student Taisia Malakhova. 
+
+                    All other models, the scripts for the character control, UIs and scripts for the menus were created by the professors of UE.</p>
+            </div>
+            <div class="slideshow-container">
+                <div class="slideshow" id="slideshow-left">
+                    <img class="slide active" src="images/project6/elephant1.png" alt="Screenshot 1">
+                    <img class="slide" src="images/project6/elephant2.png" alt="Screenshot 2">
+                    <img class="slide" src="images/project6/elephant3.png" alt="Screenshot 3">
+                    <img class="slide" src="images/project6/elephant4.png" alt="Screenshot 4">
+                    <img class="slide" src="images/project6/elephant5.png" alt="Screenshot 5">
+                    <button class="prev" onclick="changeSlide(-1, 'slideshow-left')">❮</button>
+                    <button class="next" onclick="changeSlide(1, 'slideshow-left')">❯</button>
+                </div>
+            </div>
+            <section class="collapsible-section">
+                <button class="collapsible">My Contributions ▼</button>
+                <div class="content">
+                    <div class="contributions-grid">
+                        <!-- First Row -->
+                        <div class="contribution-box">
+                            <h3>3D Modeling & Texturing</h3>
+                            <ul>
+                                <li>Created 3D model of the character.</li>
+                                <li>Designed and applied texture for the character.</li>
+                                <li>Modeled collectibles.</li>
+                                <li>Designed 3 types of obstacles.</li>
+                                <li>Created textures for collectibles and obstacles.</li>
+                                <li>Modeled and textured the circus environment (scene surrounding).</li>
+                            </ul>
+                        </div>
+                        <div class="contribution-box">
+                            <h3>Character Animations</h3>
+                            <ul>
+                                <li>Created 7 animations for the character:</li>
+                                <ul>
+                                    <li>Idle</li>
+                                    <li>Flying</li>
+                                    <li>Jumping</li>
+                                    <li>Sliding</li>
+                                    <li>After hit (stars above the head)</li>
+                                    <li>Scared (before the run)</li>
+                                    <li>Dead</li>
+                                </ul>
+                            </ul>
+                        </div>
+            
+                        <!-- Second Row -->
+                        <div class="contribution-box">
+                            <h3>Obstacle Animations</h3>
+                            <ul>
+                                <li>Designed destruction animations for all obstacles.</li>
+                            </ul>
+                        </div>
+                        <div class="contribution-box">
+                            <h3>Sound Design</h3>
+                            <ul>
+                                <li>Implemented elephant roar sound when hit.</li>
+                                <li>Created destruction sound effects for obstacles.</li>
+                                <li>Added background music.</li>
+                                <li>Integrated elephant scream sound effect when dead.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+            
+        <!-- Right Section - Project B -->
+        <section class="split-section right">
+            <h2>Project 2</h2>
+            <div class="banner">
+                <div class="links">
+                    <a href="https://fufaaykaa.itch.io/piggy-pixie" target="_blank"><img src="icons/play.png" alt="Play"></a>
+                    <a href="documents/pixie_doc.pdf" target="_blank"><img src="icons/documentation.png" alt="Docs"></a>
+                </div>
+            </div>
+            <div class="overview">
+                <p>"Piggy Pixie" is a 3D Modeling and Animation project, which was created as a part of the "Animation for Games" course in the "University of Europe for Applied Sciences". The main character's model, texture, all animations and additional effects, such as particle systems, were created by the student Taisia Malakhova. The character is able to walk, run, jump. As the additional animations: the character has an idle animation, she reacts to the rain and the bus stop, which can be seen on the map.
+
+                    All the models besides Pixie, the scripts for the character control, rain and bus stop were created by the professors of UE .</p>
+            </div>
+            <div class="slideshow-container">
+                <div class="slideshow" id="slideshow-right">
+                    <img class="slide active" src="images/project6/pixie1.png" alt="Screenshot 1">
+                    <img class="slide" src="images/project6/pixie2.png" alt="Screenshot2">
+                    <img class="slide" src="images/project6/pixie3.png" alt="Screenshot 3">
+                    <img class="slide" src="images/project6/pixie4.png" alt="Screenshot 4">
+                    <img class="slide" src="images/project6/pixie5.png" alt="Screenshot 5">
+                    <button class="prev" onclick="changeSlide(-1, 'slideshow-right')">❮</button>
+                    <button class="next" onclick="changeSlide(1, 'slideshow-right')">❯</button>
+                </div>
+            </div>
+            <section class="collapsible-section">
+                <button class="collapsible">My Contributions ▼</button>
+                <div class="content">
+                    <div class="contributions-grid">
+                        <!-- First Row -->
+                        <div class="contribution-box">
+                            <h3>3D Modeling & Texturing</h3>
+                            <ul>
+                                <li>Created the 3D model of the character.</li>
+                                <li>Designed and applied character texture.</li>
+                            </ul>
+                        </div>
+                        <div class="contribution-box">
+                            <h3>Character Animation</h3>
+                            <ul>
+                                <li>Created 10 animations for the character:</li>
+                                <ul>
+                                    <li>Walking</li>
+                                    <li>Idle (dancing)</li>
+                                    <li>Idle (standing)</li>
+                                    <li>Idle (head turning)</li>
+                                    <li>Jumping</li>
+                                    <li>Running</li>
+                                    <li>Watching the rain</li>
+                                    <li>Waiting for the bus 1</li>
+                                    <li>Waiting for the bus 2</li>
+                                    <li>Walking with jump</li>
+                                </ul>
+                                <li>Set up random idle animations.</li>
+                                <li>Created 5 layers of animation.</li>
+                                <li>Implemented avatar mask for animation customization.</li>
+                            </ul>
+                        </div>
+            
+                        <!-- Second Row -->
+                        <div class="contribution-box">
+                            <h3>Headphones System</h3>
+                            <ul>
+                                <li>Designed headphones model.</li>
+                                <li>Implemented activation/deactivation logic:</li>
+                                <ul>
+                                    <li>Headphones appear during the Dancing Idle Animation.</li>
+                                    <li>Headphones disappear when any other animation starts.</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="contribution-box">
+                            <h3>FX & Script-Driven Animations</h3>
+                            <ul>
+                                <li>Implemented 2 particle systems for additional effects.</li>
+                                <li>Designed BlendTree for smooth transitions between walking and running animations.</li>
+                                <li>Added 2 script-driven animations for rain and bus stop triggers.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="collapsible-section">
+                <button class="collapsible">Videos ▼</button>
+                <section class="video-showcase">
+                    <h2>Videos of animations from different stages of the development</h2>
+                    <div class="video-container">
+                
+                        <div class="video-card">
+                            <a href="https://youtu.be/N7cLy81Ee_I?si=bqgAt7dlS9ZOTG40" target="_blank">
+                                <img src="images/project6/preview_p_1.png" alt="Instagram Reel Preview">
+                                <p>First walking animation</p>
+                            </a>
+                        </div>
+                        <div class="video-card">
+                            <a href="https://youtu.be/tlKlRRT4nLU?si=zDM8huAa76J3ssQq" target="_blank">
+                                <img src="images/project6/preview_p_2.png" alt="Instagram Reel Preview">
+                                <p>First idle animation</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/shI5ct_gcoc?si=ETxlGvFdLfss8xHX" target="_blank">
+                                <img src="images/project6/preview_p_3.png" alt="Instagram Reel Preview">
+                                <p>Basic walking animation</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/iYbsxFFfL_4?si=X-qvztKifZ_CfB4X" target="_blank">
+                                <img src="images/project6/preview_p_4.png" alt="Instagram Reel Preview">
+                                <p>Basic walking animation updated</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/z3tYsInAlno?si=EaNVrFllbb6E3-Zk" target="_blank">
+                                <img src="images/project6/preview_p_5.png" alt="Instagram Reel Preview">
+                                <p>Added headphones to idle animation</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/8yvOk1OOLrI?si=WzdkjGQ5IQ1sdytk" target="_blank">
+                                <img src="images/project6/preview_p_6.png" alt="Instagram Reel Preview">
+                                <p>Waiting a bus animation</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/gengkfKeY38?si=JbUGeLaJOw-QUgBc" target="_blank">
+                                <img src="images/project6/preview_p_7.png" alt="Instagram Reel Preview">
+                                <p>Jumping animation</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/OCbg-ujVB34?si=43bFEw8k5L3w95V8" target="_blank">
+                                <img src="images/project6/preview_p_8.png" alt="Instagram Reel Preview">
+                                <p>Interim version of the project</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/81ENH7Mngb8?si=2JUqJFEk3oE8xc1r" target="_blank">
+                                <img src="images/project6/preview_p_9.png" alt="Instagram Reel Preview">
+                                <p>Random idle animation</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/qI1pn5jkAoM?si=fdGHTtbN8WzYFlPk" target="_blank">
+                                <img src="images/project6/preview_p_10.png" alt="Instagram Reel Preview">
+                                <p>Headphones idle animation (broken)</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/iR2-lZUILPM?si=_wXogVG3J5bvTVhZ" target="_blank">
+                                <img src="images/project6/preview_p_11.png" alt="Instagram Reel Preview">
+                                <p>Test of the avatar mask</p>
+                            </a>
+                        </div><div class="video-card">
+                            <a href="https://youtu.be/3CVWAksWvOU?si=CSrl4aCAiFWsjEGm" target="_blank">
+                                <img src="images/project6/preview_p_12.png" alt="Instagram Reel Preview">
+                                <p>Final version</p>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+        </section>
+        
+    </section>
+
+    </div>
+
+    <footer>
+        <p>© 2025 Taya Malakhova</p>
+    </footer>
+
+</body>
+</html>

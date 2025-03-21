@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taisia Malakhova - Game Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <canvas id="starfield"></canvas>
+
+    <header>
+        <h1>Taisia Malakhova</h1>
+        <p>Portfolio Website</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <img src="images/profile2.JPEG" alt="Taya Malakhova" class="profile-img">
+        <div class="intro-text">
+            <p>Hi, my name is Malakhova Taisia (Taya), I am a Game Design student at the University of Europe for Applied Sciences in Berlin. I am 19 years old and I am from Russia.</p>
+            <p>My journey into Game Design began almost 2 years ago. Before that, I had been a professional dancer for 12 years. Over time, I became fascinated by the IT world, which led me to explore programming, mathematics, and other technical fields. However, learning informatics was not enough for me, because I wanted to find a way to merge my technical skills with creativity.</p>
+            <p>For my whole life, I've been drawn to different forms of art: I play piano, sing and record covers, love creative makeup, I am interested in painting and poetry, and also have a big background in the dancing industry. Therefore, when I learned about Game Design, it seemed like the perfect field for me, since it combines both technical skills and artistic expression.</p>
+            <p>Every day I feel more confident about the choice I've made. There is still a lot to explore and learn about game development and my interests as a game designer, but I already know that I want to grow in this industry and share my ideas with people through the art of games.</p>
+            <p>This website showcases the main projects I've worked on in the last two years, and I would really like to share them with you. Feel free to explore! And if you want, you can find more information about me on the <a href="about.html">About Me</a> page, and dive deeper into my projects on the <a href="projects.html">Projects</a> page. Enjoy!</p>
+        </div>
+    </section>
+
+    <div class="slideshow-container">
+        <div class="slideshow" id="slideshow-right">
+            <img class="slide" src="images/ss_mainp_1.png" alt="Project 1">
+            <img class="slide" src="images/ss_mainp_2.png" alt="Project 2">
+            <img class="slide" src="images/ss_mainp_3.png" alt="Project 3">
+            <img class="slide" src="images/ss_mainp_4.png" alt="Project 4">
+            <img class="slide" src="images/ss_mainp_5.png" alt="Project 5">
+            <img class="slide" src="images/ss_mainp_6.png" alt="Project 6">
+            <img class="slide" src="images/ss_mainp_7.png" alt="Project 7">
+            <button class="prev" onclick="changeSlide(-1, 'slideshow-right')">❮</button>
+            <button class="next" onclick="changeSlide(1, 'slideshow-right')">❯</button>
+        </div>
+    </div>
+    
+</section>
+    <footer>
+        <p>© 2025 Taya Malakhova</p>
+    </footer>
+
+</body>
+</html>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Taya Malakhova</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="project2"> <!-- Added class for Project 2 styles -->
+
+    <header>
+        <h1>Project 2</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner with Links -->
+    <section class="banner">
+        <div class="links">
+            <a href="https://taya-marta-marianna.itch.io/zombification" target="_blank"><img src="icons/play.png" alt="Play Game"></a>         
+            <a href="documents/Zombification_doc.pdf" target="_blank">
+                <img src="icons/documentation.png" alt="Open Documentation" width="50">
+            </a>    
+            <a href="https://youtu.be/zY6ZEsSIT_8?si=-2m6gnnwStFSwRlN" target="_blank"><img src="icons/trailer.png" alt="Trailer"></a>
+        </div>
+    </section>
+
+   <!-- Overview + Slideshow -->
+   <section class="overview">
+    <div class="overview-text">
+        <h2>Overview</h2>
+        <p>This game was created by Taya Malakhova, Marianna Koszutska, and Marta Vedral in PuzzleScript. It is a 2D puzzle game that involves solving maze-like levels. The player is a zombie virus that infects a healthy human's body by leaving a green trail behind it. There are 9 levels in total, each being a different body part. Can you solve all of them? Let's find out!
+        </p>
+    </div>
+    <div class="slideshow-container">
+        <div class="slideshow" id="slideshow-right">
+            <img class="slide active" src="images/project2/slide1.png" alt="Screenshot 1">
+            <img class="slide" src="images/project2/slide2.png" alt="Screenshot 2">
+            <img class="slide" src="images/project2/slide3.png" alt="Screenshot 3">
+            <img class="slide" src="images/project2/slide4.png" alt="Screenshot 4">
+            <img class="slide" src="images/project2/slide5.png" alt="Screenshot 5">
+            <img class="slide" src="images/project2/slide6.png" alt="Screenshot 6">
+            <img class="slide" src="images/project2/slide7.png" alt="Screenshot 7">
+            <button class="prev" onclick="changeSlide(-1, 'slideshow-right')">❮</button>
+            <button class="next" onclick="changeSlide(1, 'slideshow-right')">❯</button>
+        </div>
+    </div>
+</section>
+</section>
+
+    
+
+    <section class="collapsible-section">
+        <button class="collapsible">Game Features ▼</button>
+        <div class="content features-section">
+            <div class="features-container">
+
+                <!-- Feature 2 -->
+         <div class="feature-item">
+            <div class="feature-circle2 toggle-feature">
+                <h3>Unique <br> Gameplay <br> Mechanic</h3>
+            </div>
+            <ul class="feature-details2 hidden">
+                <li>Unique way of interaction with each level asset</li>
+                <li>The virus leaves a green trail behind, representing the infection spreading</li>
+                <li>Multiple ways of completing each level</li>
+            </ul>
+        </div>
+                <!-- Feature 1 -->
+                <div class="feature-item">
+                    <div class="feature-circle2 toggle-feature">
+                        <h3>Puzzle-Based <br> Level Design</h3>
+                    </div>
+                    <ul class="feature-details2 hidden">
+                        <li>Maze-like puzzles that challenge players to infect all required areas</li>
+                        <li>10 unique levels, each representing a different body part</li>
+                        <li>Increasing difficulty with more complex layouts in later levels</li>
+                        <li>Each move matters, forcing strategic decisions</li>
+                    </ul>
+                </div>
+                <!-- Feature 5 -->
+                <div class="feature-item">
+                    <div class="feature-circle2 toggle-feature">
+                        <h3>Distinct <br> Art Style</h3>
+                    </div>
+                    <ul class="feature-details2 hidden">
+                        <li>Minimalistic pixel art</li>
+                        <li>Green infection trail contrasts with the human body’s background</li>
+                        <li>Every asset in the level follows the logic of the narrative</li>
+                    </ul>
+                </div>
+
+                 <!-- Feature 6 -->
+                 <div class="feature-item">
+                    <div class="feature-circle2 toggle-feature">
+                        <h3>Tutorial <br> Levels</h3>
+                    </div>
+                    <ul class="feature-details2 hidden">
+                        <li>Explain the controls</li>
+                        <li>Explain the main goal of the game and show winning conditions</li>
+                        <li>Demonstrate how to interact with the objects in the levels</li>
+                    </ul>
+                </div>
+                <!-- Feature 7 -->
+                <div class="feature-item">
+                    <div class="feature-circle2 toggle-feature">
+                        <h3>Two Versions <br> of the Game</h3>
+                    </div>
+                    <ul class="feature-details2 hidden">
+                        <li><strong>Older Version:</strong> More tricky and difficult levels</li>
+                        <li><strong>Newer Version:</strong> Difficulty of levels grows more smoothly and logically. Also, tutorials are added</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 3 -->
+                <div class="feature-item">
+                    <div class="feature-circle2 toggle-feature">
+                        <h3>Coherent <br> Narrative</h3>
+                    </div>
+                    <ul class="feature-details2 hidden">
+                        <li>Understandable and logical narrative</li>
+                        <li>Narrative is translated through all aspects of the game: Art, Mechanics, and Text</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 4 -->
+                <div class="feature-item">
+                    <div class="feature-circle2 toggle-feature">
+                        <h3>Simple but <br> Engaging <br> Controls</h3>
+                    </div>
+                    <ul class="feature-details2 hidden">
+                        <li>Arrow keys / WASD to move the virus</li>
+                        <li>Undo function to correct mistakes</li>
+                    </ul>
+                </div>
+    
+                <!-- Feature 8 -->
+                <div class="feature-item">
+                    <div class="feature-circle2 toggle-feature">
+                        <h3>Sound <br> Effects</h3>
+                    </div>
+                    <ul class="feature-details2 hidden">
+                        <li>Sound effects for all actions of the player</li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="collapsible-section">
+        <button class="collapsible">My Contributions ▼</button>
+        <div class="content">
+            <ul class="contributions-list">
+                <li><span class="task-title">Level Design:</span>
+                    <ul class="sub-list">
+                        <li><strong>Older Version:</strong> Designed levels 1, 3, 5, 6</li>
+                        <li><strong>Newer Version:</strong> Designed levels 1, 2, 5</li>
+                    </ul>
+                </li>
+                <li><span class="task-title">Coding:</span>
+                    <ul class="sub-list">
+                        <li>Implemented character movement</li>
+                        <li>Developed virus character interactions with all objects</li>
+                        <li>Created the leaving-a-trail mechanic</li>
+                        <li>Programmed winning conditions</li>
+                        <li>Designed and structured levels</li>
+                    </ul>
+                </li>
+                <li><span class="task-title">Graphic Design:</span>
+                    <ul class="sub-list">
+                        <li>Created 2 banners for itch.io</li>
+                    </ul>
+                </li>
+                <li><span class="task-title">Trailer:</span>
+                    <ul class="sub-list">
+                        <li>Directed, edited, and produced the official game trailer</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    
+    <footer>
+        <p>© 2025 Taya Malakhova</p>
+    </footer>
+
+</body>
+</html>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Taya Malakhova</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Project 1</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner with Links -->
+    <section class="banner">
+        <div class="links">
+            <a href="https://fufaaykaa.itch.io/inbetween" target="_blank"><img src="icons/play.png" alt="Play Game"></a>
+            <a href="documents/IB_doc.pdf" target="_blank">
+                <img src="icons/documentation.png" alt="Open Documentation" width="50">
+            </a>            
+            <a href="https://youtu.be/65OHOn39Dm4?si=2ZQRy6U2lZfLOSMj" target="_blank"><img src="icons/trailer.png" alt="Trailer"></a>
+        </div>
+    </section>
+
+    <!-- Overview + Slideshow -->
+    <section class="overview">
+        <div class="overview-text">
+            <h2>Overview</h2>
+            <p>InBetween is a multiplayer game where players are challenged to join forces and solve various puzzles! However, here comes a catch... they need to do it all together while sharing one controller. Set in a cozy and playful environment game provides an exciting challenge for both players!
+            </p>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow" id="slideshow-right">
+                <img class="slide active" src="images/project1/slide1.png" alt="Screenshot 1">
+                <img class="slide" src="images/project1/slide2.png" alt="Screenshot 2">
+                <img class="slide" src="images/project1/slide3.png" alt="Screenshot 3">
+                <img class="slide" src="images/project1/slide4.png" alt="Screenshot 4">
+                <img class="slide" src="images/project1/slide5.png" alt="Screenshot 5">
+                <img class="slide" src="images/project1/slide6.png" alt="Screenshot 6">
+                <img class="slide" src="images/project1/slide7.png" alt="Screenshot 7">
+                <img class="slide" src="images/project1/slide8.png" alt="Screenshot 8">
+                <button class="prev" onclick="changeSlide(-1, 'slideshow-right')">❮</button>
+                <button class="next" onclick="changeSlide(1, 'slideshow-right')">❯</button>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Features (Collapsible) -->
+    <section class="collapsible-section">
+        <button class="collapsible">Features ▼</button>
+        <div class="content">
+            <img src="images/project1/features.svg" alt="My SVG Image" width="200">
+        </div>
+    </section>
+
+    <section class="collapsible-section">
+        <button class="collapsible">My Contributions ▼</button>
+        <div class="content">
+            <div class="contributions-grid">
+                <!-- First Row -->
+                <div class="contribution-box">
+                    <h3>Character Design</h3>
+                    <ul>
+                        <li>3D models</li>
+                        <li>Textures</li>
+                        <li>6 animations for each character</li>
+                    </ul>
+                </div>
+                <div class="contribution-box">
+                    <h3>Main Menu (Attic) Design</h3>
+                    <ul>
+                        <li>Approximately 25-30 models</li>
+                        <li>Texture for each model</li>
+                        <li>Lighting & particle systems</li>
+                        <li>Animations</li>
+                    </ul>
+                </div>
+                <div class="contribution-box">
+                    <h3>Level Design</h3>
+                    <ul>
+                        <li>Designed layouts for levels 1, 2, and more</li>
+                    </ul>
+                </div>
+    
+                <!-- Second Row -->
+                <div class="contribution-box">
+                    <h3>Environment Design</h3>
+                    <ul>
+                        <li>3D models of level walls, floors, and shape holes (Shapes Game)</li>
+                        <li>Textures for all these models</li>
+                        <li>Design of the background for levels (Shapes Game)</li>
+                        <li>Models and textures for game boxes' lids</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <p>© 2025 Taya Malakhova</p>
+    </footer>
+
+</body>
+</html>
