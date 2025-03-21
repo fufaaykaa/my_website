@@ -1106,25 +1106,23 @@ footer {
 .video-container2 {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: nowrap; /* Ensures all videos stay in a row */
-    padding-top: 10px;
-    font-size: 10px;
-
+    gap: 10px; /* Reduce spacing */
+    flex-wrap: wrap; /* Allows videos to go to a new row if needed */
+    padding: 10px;
+    max-width: 400px; /* Prevents stretching */
+    margin: 0 auto; /* Centers the section */
 }
 
 .video-card2 {
-    width: 100px;
-    height: 220px;
-    background: #be000050;
-    padding: 10px;
+    width: 120px; /* Adjusted width */
+    height: auto; /* Keep proportional height */
+    background: rgba(190, 0, 0, 0.3);
+    padding: 5px;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.2s ease;
-    flex-shrink: 0; /* Prevents shrinking */
-    font-size: 10px;
+    flex-shrink: 0;
 }
-
 .video-card:hover {
     transform: scale(1.05);
 }
