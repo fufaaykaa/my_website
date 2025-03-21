@@ -1124,3 +1124,13 @@ footer {
     flex-shrink: 0; /* Prevents shrinking */
     font-size: 10px;
 }
+.video-card2 img {
+    width: 100%; /* Makes sure image fits */
+    height: auto; /* Keeps proportions */
+    border-radius: 5px;
+}
+
+.video-card2 p {
+    font-size: 12px;
+    margin-top: 5px;
+}
