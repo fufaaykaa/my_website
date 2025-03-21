@@ -1114,7 +1114,7 @@ footer {
 }
 
 .video-card2 {
-    width: 120px; /* Adjusted width */
+    width: 12px; /* Adjusted width */
     height: auto; /* Keep proportional height */
     background: rgba(190, 0, 0, 0.3);
     padding: 5px;
@@ -1123,6 +1123,7 @@ footer {
     transition: transform 0.2s ease;
     flex-shrink: 0;
 }
+
 .video-card:hover {
     transform: scale(1.05);
 }
