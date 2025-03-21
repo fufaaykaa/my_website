@@ -1103,7 +1103,7 @@ footer {
     height: auto;
     margin: 10px auto;
 }
-.video-container2 {
+video-container2 {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -1113,7 +1113,7 @@ footer {
 
 }
 
-.video-card2 {
+video-card2 {
     width: 100px;
     height: 220px;
     background: #be000050;
