@@ -819,7 +819,7 @@ footer {
 
 @font-face {
     font-family: 'ElectronicHighwaySign';
-    src: url('fonts/EHSMB.TTF') format('truetype');
+    src: url('Fonts/EHSMB.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
