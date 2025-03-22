@@ -768,7 +768,7 @@ footer {
     justify-content: center;
     gap: 10px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 /* Task Box Styling */
@@ -840,10 +840,10 @@ footer {
 /* Contribution Box Style */
 .contribution-box {
     background: rgba(255, 255, 255, 0.1);
-    padding-left: 0px;
     border-radius: 8px;
     text-align: center;
     color: #ffffff;
+    width: 85%;
 }
 
 /* Title Styling */
@@ -857,7 +857,7 @@ footer {
 /* Bullet Points */
 .contribution-box ul {
     list-style-type: disc;
-    padding-left: 200px;
+    padding-left: 50px;
     font-size: 30px;
     max-width: 550px;
     text-align: left;
@@ -1308,4 +1308,30 @@ footer {
     .interests-grid {
         grid-template-columns: 1fr 1fr;
     }
+}
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%; /* Ensure the body takes the full width */
+    max-width: 100%; /* Prevent any element from exceeding the viewport width */
+}
+
+/* Ensure all containers respect the viewport width */
+.container, .split-container, .contributions-container, .features-container, .interests-grid {
+    max-width: 50%; /* Ensure containers don't exceed the viewport width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+/* Contributions Section */
+.contributions-container, .contributions-grid {
+    width: 100%; /* Ensure it takes the full width */
+    max-width: 100vw; /* Prevent horizontal overflow */
+    padding: 0 20px; /* Add some padding for better spacing */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Interests Section */
+.interests-grid {
+    width: 100%; /* Ensure it takes the full width */
+    max-width: 100vw; /* Prevent horizontal overflow */
+    padding: 0 20px; /* Add some padding for better spacing */
+    box-sizing: border-box; /* Include padding in the width */
 }
