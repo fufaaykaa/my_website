@@ -3,8 +3,9 @@ body {
     font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
-    background: #000000;
+    background: #000000; /* General background color */
     text-align: center;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* Header */
@@ -35,16 +36,15 @@ nav a {
 
 /* --- BANNER --- */
 .banner {
-    width: 100%;
-    height: 355px; /* Wide but not tall */
+    width: 100%; /* Ensure banners always stretch to full width */
+    height: 350px; /* Set a fixed height for banners */
     background: url('images/project1/banner.jpg') no-repeat center center;
-    background-size: cover; /* Ensure the image covers the entire banner */
+    background-size: cover; /* Ensure the image covers the banner area */
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Move icons lower */
-    padding-bottom: 15px; /* Adjust this value to move them further down */
+    align-items: flex-end; /* Align content at the bottom */
+    padding-bottom: 20px; /* Add padding to reduce gaps */
 }
-
 
 .banner .links {
     display: flex;
@@ -69,7 +69,7 @@ nav a {
     gap: 40px;
     padding: 50px;
     max-width: 1000px;
-    margin: auto
+    margin: auto;
 }
 
 .overview-text {
@@ -147,6 +147,7 @@ footer {
     padding: 10px;
     margin-top: 50px;
 }
+
 /* --- INTRO SECTION --- */
 .intro {
     display: flex;
@@ -213,7 +214,10 @@ footer {
 .contributions-list {
     color: white; /* White text */
     text-align: left; /* Align text to the left */
-    padding-left: 20px; /* Space for better readability */
+    padding: 20px; /* Add padding to prevent overflow */
+    max-width: 100%; /* Prevent horizontal overflow */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 /* Main Tasks (Bold Titles) */
@@ -225,9 +229,9 @@ footer {
 
 /* Sub-tasks (Numbered List) */
 .contributions-list ol {
-    font-size: 5px;
+    font-size: 16px; /* Adjusted font size for better readability */
     font-weight: normal;
-    padding-left: 25px; /* Indent for better structure */
+    padding-left: 20px; /* Indent for better structure */
     margin-top: 5px;
 }
 
@@ -244,21 +248,25 @@ footer {
 
 /* --- PROJECT 2 BANNER --- */
 .project2 .banner {
-    width: 100%;
-    height: 550px; /* Same size as other banners */
+    width: 100%; /* Ensure banners always stretch to full width */
+    height: 520px; /* Set a fixed height for banners */
     background: url('images/project2/banner.png') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the banner area */
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 15px;
+    align-items: flex-end; /* Align content at the bottom */
+    padding-bottom: 20px; /* Add padding to reduce gaps */
 }
+
 /* Contributions List Styling */
 .contributions-list {
     color: white;
     text-align: left;
-    padding-left: 20px;
+    padding: 20px; /* Add padding to prevent overflow */
     list-style: none; /* Remove default bullets */
+    max-width: 100%; /* Prevent horizontal overflow */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 /* Main Tasks (Bigger, More Emphasis) */
@@ -272,7 +280,7 @@ footer {
 
 /* Sub-tasks (Smaller, Normal Weight) */
 .sub-list {
-    font-size: 1px;
+    font-size: 16px; /* Adjusted font size for better readability */
     font-weight: normal;
     padding-left: 20px;
     margin-top: 15px;
@@ -283,6 +291,7 @@ footer {
 .sub-list li {
     margin-bottom: 5px;
 }
+
 .project3 {
     background: #0e0833; /* Dark Red Background */
     color: white; /* Ensure text is readable */
@@ -291,15 +300,16 @@ footer {
 
 /* --- PROJECT 3 BANNER --- */
 .project3 .banner {
-    width: 100%;
-    height: 540px; /* Same size as other banners */
+    width: 100%; /* Ensure banners always stretch to full width */
+    height: 400px; /* Set a fixed height for banners */
     background: url('images/project3/dev_banner.png') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the banner area */
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 15px;
+    align-items: flex-end; /* Align content at the bottom */
+    padding-bottom: 20px; /* Add padding to reduce gaps */
 }
+
 /* Role Title (Makes Your Role Stand Out) */
 .role-title {
     font-size: 22px;
@@ -320,8 +330,11 @@ footer {
 .contributions-list {
     color: white;
     text-align: left;
-    padding-left: 450px;
-    list-style: none; /* Remove default bullets */
+    padding: 20px; /* Add padding to prevent overflow */
+    margin: 0 auto; /* Centered container */
+    max-width: 800px; /* Limit width for readability */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 /* Main Tasks (Bigger, More Emphasis) */
@@ -345,6 +358,7 @@ footer {
 .sub-list li {
     margin-bottom: 5px;
 }
+
 /* Video Showcase Section */
 .video-showcase {
     text-align: center;
@@ -383,6 +397,7 @@ footer {
     font-size: 16px;
     margin-top: 10px;
 }
+
 /* --- OVERVIEW & SLIDESHOW --- */
 .overview3 {
     font-size: 20px;
@@ -392,7 +407,7 @@ footer {
     gap: 40px;
     padding: 50px;
     max-width: 1000px;
-    margin: auto
+    margin: auto;
 }
 
 /* Website Button Styling */
@@ -412,6 +427,7 @@ footer {
 .website-button:hover {
     background-color: #cc5500; /* Darker orange on hover */
 }
+
 .project4 {
     background: #000000; /* Dark Red Background */
     color: white; /* Ensure text is readable */
@@ -420,15 +436,16 @@ footer {
 
 /* --- PROJECT 3 BANNER --- */
 .project4 .banner {
-    width: 100%;
-    height: 540px; /* Same size as other banners */
+    width: 100%; /* Ensure banners always stretch to full width */
+    height: 490px; /* Set a fixed height for banners */
     background: url('images/project4/banner.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the banner area */
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 15px;
+    align-items: flex-end; /* Align content at the bottom */
+    padding-bottom: 20px; /* Add padding to reduce gaps */
 }
+
 .overview4 {
     font-size: 30px;
     display: flex;
@@ -437,8 +454,9 @@ footer {
     gap: 40px;
     padding: 50px;
     max-width: 1000px;
-    margin: auto
+    margin: auto;
 }
+
 /* Main Tasks (Bigger, More Emphasis) */
 .task-title-blue {
     font-size: 40px;
@@ -515,6 +533,7 @@ footer {
     background: transparent;
     min-height: 130px;
 }
+
 /* Bullet Point Formatting */
 .feature-details li {
     font-size: 20px;
@@ -535,7 +554,6 @@ footer {
     top: 2px;
 }
 
-
 .feature-circle2 {
     width: 300px;
     height: 200px;
@@ -550,8 +568,6 @@ footer {
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
-
 
 /* Feature Details (Dotted Frame) */
 .feature-details2 {
@@ -614,6 +630,7 @@ footer {
 .right {
     background: rgb(187, 148, 164);
 }
+
 .project6 {
     background: rgb(100, 71, 78);
 }
@@ -668,30 +685,34 @@ footer {
     width: 100%;
     margin: auto;
 }
+
 .left .banner {
-    width: 100%;
-    height: 490px; /* Same size as other banners */
+    width: 100%; /* Ensure banners always stretch to full width */
+    height: 400px; /* Set a fixed height for banners */
     background: url('images/project6/elephant_cover.png') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the banner area */
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 15px;
+    align-items: flex-end; /* Align content at the bottom */
+    padding-bottom: 20px; /* Add padding to reduce gaps */
 }
+
 .right .banner {
-    width: 100%;
-    height: 490px; /* Same size as other banners */
+    width: 100%; /* Ensure banners always stretch to full width */
+    height: 400px; /* Set a fixed height for banners */
     background: url('images/project6/pixie_cover.png') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the banner area */
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 15px;
+    align-items: flex-end; /* Align content at the bottom */
+    padding-bottom: 20px; /* Add padding to reduce gaps */
 }
+
 .left .banner .links {
     display: flex;
     padding-right: 640px;
 }
+
 .right .banner .links {
     display: flex;
     gap: 500px; /* Space between icons */
@@ -705,6 +726,7 @@ footer {
     text-align: center;
     transition: transform 0.2s ease;
 }
+
 /* Video Background */
 #bg-video {
     position: fixed;
@@ -725,24 +747,26 @@ footer {
 }
 
 .project5 .banner {
-    width: 100%;
-    height: 550px; /* Same size as other banners */
+    width: 100%; /* Ensure banners always stretch to full width */
+    height: 500px; /* Set a fixed height for banners */
     background: url('images/project5/banner.PNG') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the banner area */
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 15px;
+    align-items: flex-end; /* Align content at the bottom */
+    padding-bottom: 20px; /* Add padding to reduce gaps */
 }
+
 .banner-container {
     background: transparent;
 }
+
 /* Contributions Container */
 .contributions-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     color: #ffffff;
     font-size: 30px;
 }
@@ -753,12 +777,11 @@ footer {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 45%;
 }
 
 /* Full-Width Sections */
 .task-box.full-width {
-    width: 36%;
+    width: 60%;
 }
 
 /* Ensure Rows Align */
@@ -766,7 +789,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px;
-    width: 80%;
+    width: 70%;
 }
 
 /* Bullet Point Styling */
@@ -778,7 +801,7 @@ footer {
 .task-box ul li {
     position: relative;
     color: rgb(243, 243, 216);
-    padding-left: 180px;
+    padding-left: 30px;
     margin-bottom: 5px;
     font-size: 25px;
     text-align: left;
@@ -790,19 +813,10 @@ footer {
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    left: -15px;
     top: 2px;
 }
 
-/* Responsive Design */
-@media (max-width: 10px) {
-    .task-box {
-        width: 100%;
-    }
-    .row {
-        flex-direction: column;
-    }
-}
+
 @font-face {
     font-family: 'ElectronicHighwaySign';
     src: url('fonts/EHSMB.TTF') format('truetype');
@@ -848,20 +862,22 @@ footer {
     max-width: 550px;
     text-align: left;
 }
+
 .left .contribution-box h3 {
     font-size: 40px;
     color: #2b5230; /* Adjust color as needed */
     margin-bottom: 10px;
     text-align: center;
 }
+
 .right .contribution-box h3 {
     font-size: 40px;
     color: #2b5230; /* Adjust color as needed */
     margin-bottom: 10px;
     text-align: center;
 }
-/* General Page Styling */
 
+/* General Page Styling */
 nav a {
     color: #ff0000; /* Brighter yellow for visibility */
     text-decoration: none;
@@ -931,8 +947,9 @@ footer {
     gap: 40px;
     padding: 50px;
     max-width: 1000px;
-    margin: auto
+    margin: auto;
 }
+
 a {
     color: #f5e4c6; /* Bright yellow for visibility */
     font-weight: bold; /* Makes links stand out */
@@ -943,8 +960,8 @@ a:hover {
     color: #ff0000; /* Darker yellow when hovered */
     text-decoration: underline; /* Underlines on hover */
 }
-/* --- ABOUT PAGE STYLES --- */
 
+/* --- ABOUT PAGE STYLES --- */
 
 /* Main About Container */
 .about-container {
@@ -1006,7 +1023,8 @@ a:hover {
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
-.skills-interests h2{
+
+.skills-interests h2 {
     font-family: 'Lora', serif;
     font-size: 28px;
     color: #ff0000; /* Gold highlight */
@@ -1033,6 +1051,7 @@ a:hover {
     padding: 20px;
     color: white;
 }
+
 .other-interests {
     text-align: center;
     max-width: 900px;
@@ -1097,12 +1116,14 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
+
 .skills-svg {
     display: block;
     max-width: 100%;
     height: auto;
     margin: 10px auto;
 }
+
 .video-container2 {
     display: flex;
     justify-content: center;
@@ -1137,4 +1158,154 @@ footer {
     color: white;
     font-size: 16px;
     margin-top: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .banner .links img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .overview, .overview3, .overview4 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .slideshow, .slideshow-container {
+        max-width: 100%;
+    }
+
+    .intro {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .profile-img {
+        width: 200px;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    .features-container {
+        gap: 20px;
+    }
+
+    .feature-item {
+        width: 100%;
+    }
+
+    .feature-circle, .feature-circle2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .feature-details, .feature-details2 {
+        width: 100%;
+    }
+
+    .contributions-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .contribution-box ul {
+        padding-left: 20px;
+    }
+
+    .task-box {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .about-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-left, .about-right {
+        min-width: 100%;
+    }
+
+    .profile-photo {
+        height: 300px;
+    }
+
+    .social-icons img {
+        width: 50px;
+    }
+
+    .interests-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner .links img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .overview, .overview3, .overview4 {
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .intro {
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .profile-img {
+        width: 300px;
+    }
+
+    .features-container {
+        gap: 50px;
+    }
+
+    .feature-item {
+        width: 45%;
+    }
+
+    .feature-circle, .feature-circle2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contributions-grid {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+
+    .contribution-box ul {
+        padding-left: 100px;
+    }
+
+    .task-box {
+        width: 48%;
+    }
+
+    .row {
+        gap: 10px;
+    }
+
+    .about-container {
+        padding: 30px;
+    }
+
+    .profile-photo {
+        height: 400px;
+    }
+
+    .social-icons img {
+        width: 75px;
+    }
+
+    .interests-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
