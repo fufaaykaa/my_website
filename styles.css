@@ -34,6 +34,21 @@ nav a {
     transition: color 0.3s ease;
 }
 
+.project6 nav a {
+    color: #ffffff; /* Brighter yellow for visibility */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+.project7 nav a {
+    color: #ffffff; /* Brighter yellow for visibility */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+
 /* --- BANNER --- */
 .banner {
     width: 100%; /* Ensure banners always stretch to full width */
@@ -604,46 +619,13 @@ footer {
     top: 2px;
 }
 
-.split-container {
-    display: flex;
-    justify-content: space-between;  /* Ensures both sections take equal space */
-    align-items: flex-start;
-    gap: 10px;
-    max-width: 100vw;
-    height: 100vh;  /* Makes sure both sections fill the full height */
-}
-
-/* --- LEFT & RIGHT SECTIONS --- */
-.split-section {
-    width: 50%;  /* Each section takes half of the screen */
-    height: 100vh;
-    overflow-y: auto;  /* Allows scrolling if content is too long */
-    padding: 20px;
-    box-sizing: border-box;
-}
-
 /* Background Colors for Visual Separation */
-.left {
-    background: rgb(201, 109, 109);  /* Slight transparency */
-}
-
-.right {
-    background: rgb(187, 148, 164);
-}
-
 .project6 {
-    background: rgb(100, 71, 78);
+    background: #d4ba55;  /* Slight transparency */
 }
 
-/* --- MAKE IT RESPONSIVE (Mobile Screens) --- */
-@media (max-width: 768px) {
-    .split-container {
-        flex-direction: column;  /* Stacks sections vertically */
-    }
-    .split-section {
-        width: 100%;
-        height: auto;
-    }
+.project7 {
+    background: #aa8ba3;
 }
 
 /* Navigation Buttons */
@@ -686,7 +668,7 @@ footer {
     margin: auto;
 }
 
-.left .banner {
+.project6 .banner {
     width: 100%; /* Ensure banners always stretch to full width */
     height: 400px; /* Set a fixed height for banners */
     background: url('images/project6/elephant_cover.png') no-repeat center center;
@@ -694,10 +676,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-end; /* Align content at the bottom */
-    padding-bottom: 20px; /* Add padding to reduce gaps */
+    padding-bottom: 0px; /* Add padding to reduce gaps */
 }
 
-.right .banner {
+.project7 .banner {
     width: 100%; /* Ensure banners always stretch to full width */
     height: 400px; /* Set a fixed height for banners */
     background: url('images/project6/pixie_cover.png') no-repeat center center;
@@ -705,20 +687,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-end; /* Align content at the bottom */
-    padding-bottom: 20px; /* Add padding to reduce gaps */
+    padding-bottom: 0px; /* Add padding to reduce gaps */
 }
 
-.left .banner .links {
+.project6 .banner .links {
     display: flex;
-    padding-right: 640px;
+    padding-right: 0px;
 }
 
-.right .banner .links {
+.project7 .banner .links {
     display: flex;
-    gap: 500px; /* Space between icons */
+    gap: 20px; /* Space between icons */
 }
 
-.right .video-card {
+.project7 .video-card {
     width: 300px;
     background: #844151;
     padding: 10px;
@@ -868,14 +850,29 @@ footer {
     text-align: left;
 }
 
-.left .contribution-box h3 {
+.project6 .contribution-box {
+    background: rgba(0, 55, 175, 0.582);
+}
+.project7 .contribution-box {
+    background: rgba(255, 255, 255, 0.171);
+}
+
+/* Title Styling */
+.contribution-box h3 {
     font-size: 40px;
-    color: #2b5230; /* Adjust color as needed */
+    color: #ffcc00; /* Adjust color as needed */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.right .contribution-box h3 {
+.project6 .contribution-box h3 {
+    font-size: 40px;
+    color: #aafffb; /* Adjust color as needed */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project7 .contribution-box h3 {
     font-size: 40px;
     color: #2b5230; /* Adjust color as needed */
     margin-bottom: 10px;
@@ -1353,6 +1350,25 @@ footer {
         justify-content: center;
         align-items: flex-end; /* Align content at the bottom */
         padding-bottom: 20px; /* Add padding to reduce gaps */
+    }
+    .project6 .banner {
+        width: 100%; /* Ensure banners always stretch to full width */
+        height: 200px; /* Set a fixed height for banners */
+        background-size: cover; /* Ensure the image covers the banner area */
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; /* Align content at the bottom */
+        padding-bottom: 0px; /* Add padding to reduce gaps */
+    }
+    
+    .project7 .banner {
+        width: 100%; /* Ensure banners always stretch to full width */
+        height: 150px; /* Set a fixed height for banners */
+        background-size: cover; /* Ensure the image covers the banner area */
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; /* Align content at the bottom */
+        padding-bottom: 0px; /* Add padding to reduce gaps */
     }
 
     .banner .links img {
