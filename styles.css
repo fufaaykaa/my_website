@@ -1216,8 +1216,8 @@ footer {
     }
 
     .feature-circle2 {
-        width: 100px;
-        height: 100px;
+        width: 170px;
+        height: 170px;
         background: #d6d6d6;
         border-radius: 10%;
         display: flex;
@@ -1225,7 +1225,7 @@ footer {
         justify-content: center;
         text-align: center;
         color: rgb(0, 0, 0);
-        font-size: 5px;
+        font-size: 10px;
         font-weight: bold;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
@@ -1242,7 +1242,7 @@ footer {
     .feature-details2 li::before {
         content: "•";
         color: #ffffff;
-        font-size: 5px;
+        font-size: 10px;
         font-weight: bold;
         position: absolute;
         left: 0px;
@@ -1317,17 +1317,17 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 205px;
+        width: 170px;
     }
 
-    .feature-circle, .feature-circle2 {
-        width: 1000px;
-        height: 100px;
+    .feature-circle {
+        width: 200px;
+        height: 200px;
     }
 
     .feature-circle2 {
-        width: 230px;
-        height: 200px;
+        width: 200px;
+        height: 170px;
         background: #d6d6d6;
         border-radius: 10%;
         display: flex;
@@ -1335,13 +1335,13 @@ footer {
         justify-content: center;
         text-align: center;
         color: rgb(0, 0, 0);
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .feature-details2 li {
-        font-size: 15px;
+        font-size: 11px;
         padding: 5px 30px;
         text-align: left;
         position: relative;
@@ -1352,7 +1352,7 @@ footer {
     .feature-details2 li::before {
         content: "•";
         color: #ffffff;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         position: absolute;
         left: 0px;
