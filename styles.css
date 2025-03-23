@@ -1203,16 +1203,23 @@ footer {
         gap: 50px;
     }
 
-    .feature-item {
+    .project2 .feature-item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 147px;
+        width: 150px;
+    }
+
+    .project4 .feature-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 140px;
     }
 
     .feature-circle {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .feature-circle2 {
@@ -1327,7 +1334,8 @@ footer {
     }
 
     .feature-circle {
-        width: 140px;
+        width: 150px;
+        height: 150px;
     }
 
     .feature-circle2 {
