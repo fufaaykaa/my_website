@@ -33,7 +33,41 @@ nav a {
     font-weight: normal;
     transition: color 0.3s ease;
 }
-
+.project1 nav a {
+    color: #ffffff; /* Brighter yellow for visibility */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+.project2 nav a {
+    color: #ffffff; /* Brighter yellow for visibility */
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+.project3 nav a {
+    color: #ffffff; /* Brighter yellow for visibility */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+.project4 nav a {
+    color: #ffffff; /* Brighter yellow for visibility */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+.project5 nav a {
+    color: #ffffff; /* Brighter yellow for visibility */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
 .project6 nav a {
     color: #ffffff; /* Brighter yellow for visibility */
     text-decoration: none;
