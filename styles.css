@@ -1168,22 +1168,35 @@ footer {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .banner .links img {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner .links {
+        display: flex;
+        gap: 10px;
     }
 
     .overview, .overview3, .overview4 {
-        gap: 10px;
-        padding: 10px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .slideshow, .slideshow-container {
+        max-width: 100%;
     }
 
     .intro {
-        gap: 20px;
-        padding: 30px;
+        flex-direction: column;
+        padding: 20px;
     }
 
     .profile-img {
-        width: 300px;
+        width: 200px;
+    }
+
+    .intro-text {
+        text-align: center;
     }
 
     .features-container {
@@ -1236,36 +1249,42 @@ footer {
         top: 2px;
     }
 
+
     .contributions-grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust for smaller screens */
+        grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
     }
 
     .contribution-box ul {
-        padding-left: 10px; /* Adjust padding for smaller screens */
+        padding-left: 1px;
     }
 
     .task-box {
-        width: 48%;
+        width: 100%;
     }
 
     .row {
-        gap: 10px;
+        flex-direction: column;
     }
 
     .about-container {
-        padding: 30px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-left, .about-right {
+        min-width: 100%;
     }
 
     .profile-photo {
-        height: 400px;
+        height: 300px;
     }
 
     .social-icons img {
-        width: 75px;
+        width: 50px;
     }
 
     .interests-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
