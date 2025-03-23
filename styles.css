@@ -1207,7 +1207,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 190px;
+        width: 180px;
     }
 
     .feature-circle {
@@ -1217,7 +1217,7 @@ footer {
 
     .feature-circle2 {
         width: 200px;
-        height: 180px;
+        height: 170px;
         background: #d6d6d6;
         border-radius: 10%;
         display: flex;
@@ -1225,13 +1225,13 @@ footer {
         justify-content: center;
         text-align: center;
         color: rgb(0, 0, 0);
-        font-size: 17px;
+        font-size: 14px;
         font-weight: bold;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .feature-details2 li {
-        font-size: 10px;
+        font-size: 9px;
         padding: 5px 30px;
         text-align: left;
         position: relative;
@@ -1242,7 +1242,7 @@ footer {
     .feature-details2 li::before {
         content: "•";
         color: #ffffff;
-        font-size: 17px;
+        font-size: 14px;
         font-weight: bold;
         position: absolute;
         left: 0px;
