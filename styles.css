@@ -1317,7 +1317,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 170px;
+        width: 150px;
     }
 
     .feature-circle {
