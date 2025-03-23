@@ -1168,89 +1168,104 @@ footer {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .banner .links img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .banner .links {
-        display: flex;
-        gap: 10px;
+        width: 100px;
+        height: 100px;
     }
 
     .overview, .overview3, .overview4 {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .slideshow, .slideshow-container {
-        max-width: 100%;
+        gap: 10px;
+        padding: 10px;
     }
 
     .intro {
-        flex-direction: column;
-        padding: 20px;
+        gap: 20px;
+        padding: 30px;
     }
 
     .profile-img {
-        width: 200px;
-    }
-
-    .intro-text {
-        text-align: center;
+        width: 300px;
     }
 
     .features-container {
-        gap: 20px;
+        gap: 50px;
     }
 
     .feature-item {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 205px;
     }
 
     .feature-circle, .feature-circle2 {
-        width: 150px;
-        height: 150px;
+        width: 1000px;
+        height: 100px;
     }
 
-    .feature-details, .feature-details2 {
-        width: 100%;
+    .feature-circle2 {
+        width: 230px;
+        height: 200px;
+        background: #d6d6d6;
+        border-radius: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .feature-details2 li {
+        font-size: 15px;
+        padding: 5px 30px;
+        text-align: left;
+        position: relative;
+        list-style-type: none; /* Remove default bullet */
+    }
+    
+    /* Custom Bullet Point */
+    .feature-details2 li::before {
+        content: "•";
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        left: 0px;
+        top: 2px;
     }
 
     .contributions-grid {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust for smaller screens */
     }
 
     .contribution-box ul {
-        padding-left: 1px;
+        padding-left: 10px; /* Adjust padding for smaller screens */
     }
 
     .task-box {
-        width: 100%;
+        width: 48%;
     }
 
     .row {
-        flex-direction: column;
+        gap: 10px;
     }
 
     .about-container {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .about-left, .about-right {
-        min-width: 100%;
+        padding: 30px;
     }
 
     .profile-photo {
-        height: 300px;
+        height: 400px;
     }
 
     .social-icons img {
-        width: 50px;
+        width: 75px;
     }
 
     .interests-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
