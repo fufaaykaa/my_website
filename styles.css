@@ -1200,24 +1200,24 @@ footer {
     }
 
     .features-container {
-        gap: 50px;
+        gap: 30px;
     }
 
     .feature-item {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 205px;
+        width: 170px;
     }
 
     .feature-circle, .feature-circle2 {
-        width: 1000px;
+        width: 700px;
         height: 100px;
     }
 
     .feature-circle2 {
-        width: 230px;
-        height: 200px;
+        width: 200px;
+        height: 180px;
         background: #d6d6d6;
         border-radius: 10%;
         display: flex;
@@ -1231,7 +1231,7 @@ footer {
     }
 
     .feature-details2 li {
-        font-size: 15px;
+        font-size: 12px;
         padding: 5px 30px;
         text-align: left;
         position: relative;
@@ -1242,7 +1242,7 @@ footer {
     .feature-details2 li::before {
         content: "•";
         color: #ffffff;
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
         position: absolute;
         left: 0px;
