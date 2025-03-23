@@ -1168,13 +1168,13 @@ footer {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .banner .links img {
-        width: 10px;
-        height: 10px;
+        width: 2px;
+        height: 2px;
     }
 
     .banner .links {
         display: flex;
-        gap: 5px; /* Space between icons */
+        gap: 1px; /* Space between icons */
     }
     .overview, .overview3, .overview4 {
         flex-direction: column;
