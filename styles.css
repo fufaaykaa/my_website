@@ -787,6 +787,15 @@ footer {
     font-size: 27px;
 }
 
+.project5 .contributions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
 /* Task Box Styling */
 .task-box {
     background: rgba(255, 255, 255, 0.1);
