@@ -1207,10 +1207,10 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 170px;
+        width: 190px;
     }
 
-    .feature-circle, .feature-circle2 {
+    .feature-circle {
         width: 700px;
         height: 100px;
     }
@@ -1225,13 +1225,13 @@ footer {
         justify-content: center;
         text-align: center;
         color: rgb(0, 0, 0);
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .feature-details2 li {
-        font-size: 12px;
+        font-size: 10px;
         padding: 5px 30px;
         text-align: left;
         position: relative;
