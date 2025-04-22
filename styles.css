@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: 'Lora', serif;
+    font-family: 'Play', sans-serif;
     margin: 0;
     padding: 0;
     background: #000000; /* General background color */
@@ -17,11 +17,13 @@ header {
 
 /* Navigation */
 nav ul {
+    color: #ffffff;
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
+    color: #ffffff;
     display: inline;
     margin: 0 15px;
 }
@@ -839,7 +841,7 @@ footer {
 
 /* General Page Styling */
 nav a {
-    color: #ff0000; /* Brighter yellow for visibility */
+    color: #ffffff; /* Brighter yellow for visibility */
     text-decoration: none;
     font-size: 18px;
     font-weight: normal;
@@ -932,6 +934,7 @@ a:hover {
     padding: 50px;
     max-width: 1200px;
     margin: 0 auto;
+    font-family: 'Play', sans-serif;
 }
 
 /* Left Side - Photo & Social Media */
@@ -976,7 +979,7 @@ a:hover {
 
 /* Section Titles */
 .about-right h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Play', sans-serif;
     font-size: 28px;
     color: #ff0000; /* Gold highlight */
     border-bottom: 2px solid white;
@@ -985,7 +988,7 @@ a:hover {
 }
 
 .skills-interests h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Play', sans-serif;
     font-size: 28px;
     color: #ff0000; /* Gold highlight */
     border-bottom: 2px solid white;
@@ -995,7 +998,7 @@ a:hover {
 
 /* Section Titles */
 .other-interests h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Play', sans-serif;
     font-size: 28px;
     color: #ff0000; /* Gold highlight */
     border-bottom: 2px solid white;
