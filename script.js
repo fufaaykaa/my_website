@@ -110,7 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // Project data - you'll need to fill this with your actual project data
 const projects = {
   project1: {
-    title: "InBetween",
     banner: "images/inbetween/banner.jpg",
     color: "#455f47", 
     description: "InBetween is a multiplayer game where players are challenged to join forces and solve various puzzles! However, here comes a catch... they need to do it all together while sharing one controller. Set in a cozy and playful environment game provides an exciting challenge for both players! The game has been created in the 'University of Europe for Applied Sciences', as a part of the class 'Build a Toy First' (supervised by: Prof. Csongor Baranyai).",
@@ -509,7 +508,6 @@ function openProjectModal(projectId) {
   if (!project) return;
   
   // Set project data
-  document.getElementById("modal-title").textContent = project.title;
   document.getElementById("modal-description").textContent = project.description;
   document.getElementById("modal-banner").src = project.banner;
   modalLeftBg.style.backgroundColor = project.color;
