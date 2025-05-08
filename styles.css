@@ -75,14 +75,19 @@ nav a:hover {
 }
 
 /* ===== SLIDESHOW ===== */
+/* ===== SLIDESHOW ===== */
 .slideshow-container {
   max-width: 800px;
   margin: 1rem auto;
   border-radius: 8px;
+  position: relative; /* Ensure arrows are positioned relative to this container */
+  height: auto; /* Adjust height dynamically */
 }
 
 .slideshow {
   width: 100%;
+  position: relative;
+  min-height: 300px; /* Ensure a minimum height for the slideshow */
 }
 
 .slide {
@@ -107,14 +112,35 @@ nav a:hover {
   font-size: 1.5rem;
   border-radius: 50%;
   transition: all 0.3s;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
 }
 
 .prev:hover, .next:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.prev { left: -50px; }
-.next { right: -50px; }
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Adjust for larger screens */
+@media (min-width: 768px) {
+  .prev {
+    left: -50px;
+  }
+  .next {
+    right: -50px;
+  }
+}
 
 /* ===== ABOUT SECTION ===== */
 .about-container {
@@ -511,10 +537,6 @@ footer {
     width: 110%;
     height: 100%;
   }
-
-  .project-links {
-      margin-top: -9rem;
-    }
   
   #modal-slideshow {
     height: 300px;
@@ -528,7 +550,6 @@ footer {
   
   .project-links {
     gap: 1rem;
-    margin-top: -6rem;
   }
   
   .project-link img {
