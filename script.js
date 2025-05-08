@@ -221,66 +221,74 @@ const projects = {
       ]
     },
     project3: {
-      title: "Smash!!!",
-      banner: "images/smash/banner_smash.png",
-      color: "#7a0053", 
-      description: "Smash!!! is a unique twist on the classic ‘Rock, Paper, Scissors’ game, where making a poor character choice doesn’t necessarily mean you’ve lost your chance to win. This game was developed in the 'University of Europe for Applied Sciences', as the part of the class 'Game a Week' (supervised by: Viktor Pekar)",
+      title: "Medieval21",
+      banner: "images/medieval/banner.png",
+      color: "#5e2170", 
+      description: "'Medieval 21' is a cozy, charming version of a classic 'Blackjack'. Set in medieval atmosphere, stunning pixel art, cards with a unique design, combined with smooth mechanics bring a fresh twist to a beloved classic, what can be better? Try it out yourself!",
       contributions: [
         {
-          title: "🪨📃✂️ 2D Characters Design",
+          title: "🎴 Cards Design",
           details: [
-            "Created 3 characters",
+            "Queen card character",
+            "King card character",
+            "Jack card character",
+            "Joker card character"
           ]
         },
         {
-          title: "👀 2D Animation",
+          title: "🏰 Background Design",
           details: [
-            "2 idle animations for each character",
-            "Set up script-driven animations in Unity"
-          ]
-        },
-        {
-          title: "⚙️ Coding",
-          details: [
-            "Selecting character mechanic",
-            "Movement mechanic",
-            "Lose/Win conditions",
-            "Collision logic",
-            "All buttons functionality"
+            "Castle asset",
+            "Animated skeletons",
+            "Animated fire",
+            "Castle window animations",
+            "Particle system for stars"
           ]
         },
         {
           title: "🎨 UI Design",
           details: [
-            "Main Menu design",
-            "Tutorial scene design",
-            "Controls tutorial design in Selection scene"
+            "Buttons & Score messages",
+            "Life indicators (Hearts)",
+            "Main Menu & Credits Design",
+            "Card Pile Animation"
           ]
         },
         {
-          title: "💡 Lightning Design using URP",
+          title: "📜 Main Menu Design",
           details: [
-            "Lightning in the level",
-            "Lightning in Main Menu",
-            "Lightning in all Lost/Won scenes"
+            "Scene transition animations",
+            "Characters animations on cards",
+            "Showing credits animation"
           ]
         },
+        {
+          title: "🔊 Sound Implementation",
+          details: [
+            "AudioManager for background music",
+            "Losing life sound",
+            "Score message sounds"
+          ]
+        },
+        {
+          title: "💡 Lighting Setup",
+          details: [
+            "Used **Unity URP 2D Light Package**",
+            "Set up lights for castle, fire, and main menu, etc."
+          ]
+        }
       ],
       links: {
         itch: {
-          url: "https://fufaaykaa.itch.io/smash",
+          url: "https://fufaaykaa.itch.io/medieval-21",
           icon: "icons/play.png" 
         },
-        documentation: {
-          url: "documents/Smash_doc.pdf",
-          icon: "icons/documentation.png"
-        }
       },
       slides: [
-        "images/smash/slide1.png",
-        "images/smash/slide2.png",
-        "images/smash/slide3.png",
-        "images/smash/slide4.png"
+        "images/medieval/slide1.png",
+        "images/medieval/slide2.png",
+        "images/medieval/slide3.png",
+        "images/medieval/slide4.png"
       ]
     },
     project4: {
@@ -352,74 +360,66 @@ const projects = {
       ]
     },
     project5: {
-      title: "Medieval21",
-      banner: "images/medieval/banner.png",
-      color: "#5e2170", 
-      description: "'Medieval 21' is a cozy, charming version of a classic 'Blackjack'. Set in medieval atmosphere, stunning pixel art, cards with a unique design, combined with smooth mechanics bring a fresh twist to a beloved classic, what can be better? Try it out yourself!",
+      title: "Smash!!!",
+      banner: "images/smash/banner_smash.png",
+      color: "#7a0053", 
+      description: "Smash!!! is a unique twist on the classic ‘Rock, Paper, Scissors’ game, where making a poor character choice doesn’t necessarily mean you’ve lost your chance to win. This game was developed in the 'University of Europe for Applied Sciences', as the part of the class 'Game a Week' (supervised by: Viktor Pekar)",
       contributions: [
         {
-          title: "🎴 Cards Design",
+          title: "🪨📃✂️ 2D Characters Design",
           details: [
-            "Queen card character",
-            "King card character",
-            "Jack card character",
-            "Joker card character"
+            "Created 3 characters",
           ]
         },
         {
-          title: "🏰 Background Design",
+          title: "👀 2D Animation",
           details: [
-            "Castle asset",
-            "Animated skeletons",
-            "Animated fire",
-            "Castle window animations",
-            "Particle system for stars"
+            "2 idle animations for each character",
+            "Set up script-driven animations in Unity"
+          ]
+        },
+        {
+          title: "⚙️ Coding",
+          details: [
+            "Selecting character mechanic",
+            "Movement mechanic",
+            "Lose/Win conditions",
+            "Collision logic",
+            "All buttons functionality"
           ]
         },
         {
           title: "🎨 UI Design",
           details: [
-            "Buttons & Score messages",
-            "Life indicators (Hearts)",
-            "Main Menu & Credits Design",
-            "Card Pile Animation"
+            "Main Menu design",
+            "Tutorial scene design",
+            "Controls tutorial design in Selection scene"
           ]
         },
         {
-          title: "📜 Main Menu Design",
+          title: "💡 Lightning Design using URP",
           details: [
-            "Scene transition animations",
-            "Characters animations on cards",
-            "Showing credits animation"
+            "Lightning in the level",
+            "Lightning in Main Menu",
+            "Lightning in all Lost/Won scenes"
           ]
         },
-        {
-          title: "🔊 Sound Implementation",
-          details: [
-            "AudioManager for background music",
-            "Losing life sound",
-            "Score message sounds"
-          ]
-        },
-        {
-          title: "💡 Lighting Setup",
-          details: [
-            "Used **Unity URP 2D Light Package**",
-            "Set up lights for castle, fire, and main menu, etc."
-          ]
-        }
       ],
       links: {
         itch: {
-          url: "https://fufaaykaa.itch.io/medieval-21",
+          url: "https://fufaaykaa.itch.io/smash",
           icon: "icons/play.png" 
         },
+        documentation: {
+          url: "documents/Smash_doc.pdf",
+          icon: "icons/documentation.png"
+        }
       },
       slides: [
-        "images/medieval/slide1.png",
-        "images/medieval/slide2.png",
-        "images/medieval/slide3.png",
-        "images/medieval/slide4.png"
+        "images/smash/slide1.png",
+        "images/smash/slide2.png",
+        "images/smash/slide3.png",
+        "images/smash/slide4.png"
       ]
     },
     project6: {
