@@ -110,12 +110,12 @@ document.addEventListener("DOMContentLoaded", function () {
 // Project data - you'll need to fill this with your actual project data
 const projects = {
   project1: {
-    banner: "images/inbetween/banner.jpg",
+    banner: "images/inbetween/banner.png",
     color: "#455f47", 
     description: "InBetween is a multiplayer game where players are challenged to join forces and solve various puzzles! However, here comes a catch... they need to do it all together while sharing one controller. Set in a cozy and playful environment game provides an exciting challenge for both players! The game has been created in the 'University of Europe for Applied Sciences', as a part of the class 'Build a Toy First' (supervised by: Prof. Csongor Baranyai).",
     contributions: [
       {
-        title: "3D Characters Design",
+        title: "🫶 3D Characters Design (including 3D animation)",
         details: [
           "3D models",
           "Textures",
@@ -123,7 +123,7 @@ const projects = {
         ]
       },
       {
-        title: "Main Menu (Attic) Design",
+        title: "🏠 Main Menu (Attic) Design",
         details: [
           "Approximately 25-30 models",
           "Texture for each model",
@@ -132,14 +132,14 @@ const projects = {
         ]
       },
       {
-          title: "Level Design",
+          title: "🌀 Level Design",
           details: [
             "Designed layouts for levels 1, 2, and 5",
             "Designed the 'disappearing wall' mechanic"
           ]
       },
       {
-          title: "Environment Design",
+          title: "🌸 Environment Design",
           details: [
             "3D models of level walls, floors, and shape holes (Shapes Game)",
             "Textures for all these models",
@@ -180,7 +180,7 @@ const projects = {
       description: "'(Don't) Lie' - story about crimes and lies, where the main character has to trick a lie detector to get away with a mmu This narrative-based game was created at the Game Design // UE at the 'University of Europe for Applied Sciences'. This project is a part of the class 'Game A Week' (supervised by: Viktor Pekar) – Theme: One Button. And as a part of the Berlin Mini Jam in April 2025 – Theme: Heartbeat",
       contributions: [
         {
-          title: "3D Modeling",
+          title: "💅🏻 3D Modeling and Animation",
           details: [
             "3D model of the hand",
             "3 animations of the hand model",
@@ -190,14 +190,14 @@ const projects = {
           ]
         },
         {
-          title: "Sound Design",
+          title: "🔊 Sound Implementation",
           details: [
             "Implemented 2 background sounds",
             "Set up Audio Manager"
           ]
         },
         {
-          title: "Coding",
+          title: "⚙️ Coding",
           details: [
             "Script-driven hand animations",
             "Audio Manager Script"
@@ -226,20 +226,20 @@ const projects = {
       description: "Smash!!! is a unique twist on the classic ‘Rock, Paper, Scissors’ game, where making a poor character choice doesn’t necessarily mean you’ve lost your chance to win. This game was developed in the 'University of Europe for Applied Sciences', as the part of the class 'Game a Week' (supervised by: Viktor Pekar)",
       contributions: [
         {
-          title: "2D Characters Design",
+          title: "🪨📃✂️ 2D Characters Design",
           details: [
             "Created 3 characters",
           ]
         },
         {
-          title: "2D Animation",
+          title: "👀 2D Animation",
           details: [
             "2 idle animations for each character",
             "Set up script-driven animations in Unity"
           ]
         },
         {
-          title: "Coding",
+          title: "⚙️ Coding",
           details: [
             "Selecting character mechanic",
             "Movement mechanic",
@@ -249,7 +249,7 @@ const projects = {
           ]
         },
         {
-          title: "UI Design",
+          title: "🎨 UI Design",
           details: [
             "Main Menu design",
             "Tutorial scene design",
@@ -257,7 +257,7 @@ const projects = {
           ]
         },
         {
-          title: "Lightning Design using URP",
+          title: "💡 Lightning Design using URP",
           details: [
             "Lightning in the level",
             "Lightning in Main Menu",
@@ -289,19 +289,19 @@ const projects = {
       description: "Devolution is a game design focused project exploring the creative process and challenges of game development, consisting of exhibitions, interviews, lectures, an archive and so on. Each Devolution event / exhibition focalises on the evolution of a game through the exhibition of prototypes and interim versions and an in-depth conversation with the developers. During the last years Devolution dismantled the games and worked with the developers of The Curious Expedition, Shift Happens and Thumper.",
       contributions: [
         {
-          title: "Role: PR & Social Media Team Lead",
+          title: "🌞 Role: PR & Social Media Team Lead",
           details: [
           ]
         },
         {
-          title: "Social Media Strategy:",
+          title: "📊 Social Media Strategy:",
           details: [
             "Developed the overall social media strategy for 3 social media accounts",
             "Adjust amd improve this strategy depending on the audience's reaction"
           ]
         },
         {
-          title: "Task & Team Management:",
+          title: "🗓 Task & Team Management:",
           details: [
             "Distribute tasks among team members based on their preferences and team's needs",
             "Created a structured timeline for all tasks, update this timeline twice a week",
@@ -309,7 +309,7 @@ const projects = {
           ]
         },
         {
-          title: "Content Planning & Creation:",
+          title: "📲 Content Planning & Creation:",
           details: [
             "Designed timetable of the post, update this timetable frequently",
             "Gather materials for content (videos, images, interviews, etc.)",
@@ -317,7 +317,7 @@ const projects = {
           ]
         },
         {
-          title: "Exhibition Planning & Visual Content:",
+          title: "🖼 Exhibition Planning & Visual Content:",
           details: [
             "Prepare a strategy for future 'Devolution' exhibitions",
             "Handle the process of creating a visual content to be showcased at exhibitions",
@@ -424,7 +424,7 @@ const projects = {
       description: "'Escaping Elephant' is an endless runner, where a little sad elephant is trying to escape from the circus. This game was created as a part of the 'Tools and Technologies' (supervised by: Florian Grolig) course in the 'University of Europe for Applied Sciences'. The main character's model (elephant), model of the collectibles, 3 types of obstacles, model of the circus, textures, all animations of the character & obstacles, and also sound effects were created by Taisia Malakhova (me). All other models, scripts and UIs were created by the other people.",
       contributions: [
         {
-          title: "3D Modeling & Texturing",
+          title: "🫶 3D Modeling & Texturing",
           details: [
             "Created 3D model of the character",
             "Designed and applied texture for the character",
@@ -434,7 +434,7 @@ const projects = {
           ]
         },
         {
-          title: "7 Character Animations",
+          title: "👀 7 Character's Animations",
           details: [
             "Idle",
             "Flying",
@@ -446,13 +446,13 @@ const projects = {
           ]
         },
         {
-          title: "Obstacle Animations",
+          title: "🚧 Obstacle Animations",
           details: [
             "Designed destruction animations for all obstacles."
           ]
         },
         {
-          title: "Sound Design",
+          title: "🔊 Sound Implementation",
           details: [
             "Implemented elephant roar sound when hit.",
             "Integrated elephant scream sound effect when dead.",
@@ -473,6 +473,93 @@ const projects = {
         "images/animation/elephant3.png",
         "images/animation/elephant4.png",
         "images/animation/elephant5.png",
+      ]
+    },
+    project7: {
+      title: "Dark Light",
+      banner: "images/darklight/banner.jpg",
+      color: "#00296A", 
+      description: "What Dark Light hopes to be is a game where you solve puzzles to uncover the story of a post-apocalyptic world where the sun disappeared.",
+      contributions: [
+        {
+          title: "🫶 3D Modeling",
+          details: [
+            "Farm Location: Barn, greenhouses, tractor, 3 gardens, 4 types of bushes, 3 types of trees, 3 types of fences, 2 types of boxes, street lights, gnome, ladder, and all other models in the 'Farm' location",
+            "Magic Fountain Location: Designed the fountain, flowers, and trees with flowers",
+            "Forest Location: Fishing rod, puzzle models for the cave, 2 types of fences, and reused some trees and bushes from the farm"
+          ]
+        },
+        {
+          title: "🖌 Texturing",
+          details: [
+            "Created textures and UV mapping for all 3D models",
+            "Designed ground textures for different locations"
+          ]
+        },
+        {
+          title: "👀 Animation",
+          details: [
+            "Character waking up in the beginning",
+            "Switcher turning and lighting switching on/off in the greenhouse",
+            "Opening and closing of the electricity box",
+            "Fence fixing in the garden",
+            "Gnome's hat movement",
+            "Barn doors opening",
+            "Street lights and tractor lights switching on",
+            "Water movement in the fountain",
+            "Sun rising back into the sky",
+            "Particle systems",
+            "Additional animations throughout the game"
+          ]
+        },
+        {
+          title: "⚙️ Coding",
+          details: [
+            "Implemented the dialogue system.",
+            "Programmed triggers for animations.",
+            "Developed doors opening and closing mechanics.",
+            "Created text prompts for controls that appear and disappear."
+          ]
+        },
+        {
+          title: "🎨 UI Design",
+          details: [
+            "Designed the interactive panel with a code entry system",
+            "Designed dialogues UI",
+            "Created and managed the final cutscene"
+          ]
+        },
+        {
+          title: "🔊 Sound Implementation",
+          details: [
+            "Added sounds for the animations",
+            "Set up audio manager",
+            "3D audio",
+          ]
+        },
+      ],
+      links: {
+        itch: {
+          url: "https://miketakashi.itch.io/dark-light",
+          icon: "icons/play.png" 
+        },
+        documentation: {
+          url: "documents/darklight_doc.pdf",
+          icon: "icons/documentation.png"
+        },
+        trailer: {
+          url: "https://youtu.be/7ABVSjjRa0k?si=1igYsNm_51jWFeu2",
+          icon: "icons/trailer.png"
+        },
+      },
+      slides: [
+        "images/darklight/slide1.png",
+        "images/darklight/slide2.png",
+        "images/darklight/slide3.png",
+        "images/darklight/slide4.png",
+        "images/darklight/slide5.png",
+        "images/darklight/slide6.png",
+        "images/darklight/slide7.png"
       ]
     },
 };
