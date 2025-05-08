@@ -537,6 +537,12 @@ const projects = {
             "3D audio",
           ]
         },
+        {
+          title: "🎥 Trailer",
+          details: [
+            "Directed, edited, and produced the official game trailer",
+          ]
+        }
       ],
       links: {
         itch: {
@@ -560,6 +566,76 @@ const projects = {
         "images/darklight/slide5.png",
         "images/darklight/slide6.png",
         "images/darklight/slide7.png"
+      ]
+    },
+    project8: {
+      title: "Zombification",
+      banner: "images/zombification/banner.png",
+      color: "#631f1f", 
+      description: "Zombification is a 2D puzzle game that involves solving maze-like levels. The player is a zombie virus that infects a healthy human's body by leaving a green trail behind it. There are 9 levels in total, each being a different body part. Can you solve all of them? Let's find out! This game was created in PuzzleScript, as a part of the University course 'Game and Play' (supervised by: Csongor Baranyai)",
+      contributions: [
+        {
+          title: "🌀 Level Design",
+          details: [
+            "Older Version: Designed levels 1, 3, 5, 6",
+            "Newer Version: Designed levels 1, 2, 5"
+          ]
+        },
+        {
+          title: "⚙️ Coding",
+          details: [
+            "Implemented character movement",
+            "Developed virus character interactions with all objects",
+            "Created the leaving-a-trail mechanic",
+            "Programmed winning conditions",
+            "Designed and structured levels"
+          ]
+        },
+        {
+          title: "🧟‍♀️ Communication Design",
+          details: [
+            "Character waking up in the beginning",
+            "Switcher turning and lighting switching on/off in the greenhouse",
+            "Opening and closing of the electricity box",
+            "Fence fixing in the garden",
+            "Gnome's hat movement",
+            "Barn doors opening",
+            "Street lights and tractor lights switching on",
+            "Water movement in the fountain",
+            "Sun rising back into the sky",
+            "Particle systems",
+            "Additional animations throughout the game"
+          ]
+        },
+        {
+          title: "🎥 Trailer",
+          details: [
+            "Directed, edited, and produced the official game trailer",
+            "Created 2D animations of the main character and used them in the trailer"
+          ]
+        },
+      ],
+      links: {
+        itch: {
+          url: "https://taya-marta-marianna.itch.io/zombification",
+          icon: "icons/play.png" 
+        },
+        documentation: {
+          url: "documents/Zombification_doc.pdf",
+          icon: "icons/documentation.png"
+        },
+        trailer: {
+          url: "https://youtu.be/zY6ZEsSIT_8?si=-2m6gnnwStFSwRlN",
+          icon: "icons/trailer.png"
+        }
+      },
+      slides: [
+        "images/zombification/slide2.png",
+        "images/zombification/slide3.png",
+        "images/zombification/slide4.png",
+        "images/zombification/slide5.png",
+        "images/zombification/slide6.png",
+        "images/zombification/slide7.png"
       ]
     },
 };
