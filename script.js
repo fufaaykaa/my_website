@@ -707,11 +707,11 @@ const projects = {
         }
       },
       slides: [
-        "images/animtion/pixie1.png",
-        "images/animtion/pixie2.png",
-        "images/animtion/pixie3.png",
-        "images/animtion/pixie4.png",
-        "images/animtion/pixie5.png",
+        "images/animation/pixie1.png",
+        "images/animation/pixie2.png",
+        "images/animation/pixie3.png",
+        "images/animation/pixie4.png",
+        "images/animation/pixie5.png",
       ]
     },
 };
