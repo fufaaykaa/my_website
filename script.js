@@ -216,7 +216,8 @@ const projects = {
       },
       slides: [
         "images/dontlie/slide1.png",
-        "images/dontlie/slide2.png"
+        "images/dontlie/slide2.png",
+        "images/dontlie/slide3.png"
       ]
     },
     project3: {
@@ -344,6 +345,10 @@ const projects = {
         }
       },
       slides: [
+        "images/devolution/post1.png",
+        "images/devolution/post2.png",
+        "images/devolution/post3.png",
+        "images/devolution/post4.png",
       ]
     },
     project5: {
