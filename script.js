@@ -353,7 +353,7 @@ const projects = {
     },
     project5: {
       title: "Medieval21",
-      banner: "images/medieval/banner1.png",
+      banner: "images/medieval/banner.png",
       color: "#5e2170", 
       description: "'Medieval 21' is a cozy, charming version of a classic 'Blackjack'. Set in medieval atmosphere, stunning pixel art, cards with a unique design, combined with smooth mechanics bring a fresh twist to a beloved classic, what can be better? Try it out yourself!",
       contributions: [
