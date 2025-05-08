@@ -802,7 +802,7 @@ function openProjectModal(projectId) {
   
   // Set slideshow
   const slideshow = document.getElementById("modal-slideshow");
-  slideshow.innerHTML = "";
+  slideshow.innerHTML = ""; // Clear previous slides and buttons
   
   project.slides.forEach((slide, index) => {
       const img = document.createElement("img");
@@ -811,6 +811,21 @@ function openProjectModal(projectId) {
       img.className = index === 0 ? "slide active" : "slide";
       slideshow.appendChild(img);
   });
+  
+  // Add prev/next buttons directly inside the slideshow container
+  const prevBtn = document.createElement("button");
+  prevBtn.className = "prev";
+  prevBtn.innerHTML = "❮";
+  prevBtn.onclick = () => changeModalSlide(-1);
+  
+  const nextBtn = document.createElement("button");
+  nextBtn.className = "next";
+  nextBtn.innerHTML = "❯";
+  nextBtn.onclick = () => changeModalSlide(1);
+  
+  slideshow.appendChild(prevBtn);
+  slideshow.appendChild(nextBtn);
+  
   
   // Start automatic slideshow
   modalSlideIndex = 0;
