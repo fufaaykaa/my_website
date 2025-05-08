@@ -638,6 +638,82 @@ const projects = {
         "images/zombification/slide7.png"
       ]
     },
+    project9: {
+      title: "Piggy Pixie",
+      banner: "images/animation/pixie_cover.png",
+      color: "#834151", 
+      description: "'Piggy Pixie' is a 3D Modeling and Animation project, which was created as a part of the 'Animation for Games' course (supervised by: Florian Grolig) in the 'University of Europe for Applied Sciences'. The main character's model, texture, all animations and additional effects, such as particle systems, were created by me (Taisia Malakhova). The character is able to walk, run, jump. As the additional animations: the character has an idle animation, she reacts to the rain and the bus stop, which can be seen on the map. All the models besides Pixie, the scripts for the character control, rain and bus stop were created by the professors of UE.",
+      contributions: [
+        {
+          title: "🫶 3D Modeling & Texturing",
+          details: [
+            "Created the 3D model of the character",
+            "Designed and applied character texture"
+          ]
+        },
+        {
+          title: "👀 10 Character's Animations",
+          details: [
+            "Walking",
+            "Idle (dancing)",
+            "Idle (standing)",
+            "Idle (head turning)",
+            "Jumping",
+            "Running",
+            "Watching the rain",
+            "Waiting for the bus 1",
+            "Waiting for the bus 2",
+            "Walking with jump"
+          ]
+        },
+        {
+          title: "🫧 Animator set up in Unity",
+          details: [
+            "Set up randomization of the idle animations",
+            "Created 5 layers of animation",
+            "Implemented avatar mask for animation customization"
+          ]
+        },
+        {
+          title: "🎧 Headphones System",
+          details: [
+            "Designed headphones model",
+            "Implemented activation/deactivation logic:",
+            "1. Headphones appear during the Dancing Idle Animation",
+            "2. Headphones disappear when any other animation starts"
+          ]
+        },
+        {
+          title: "✨ FX & Script-Driven Animations",
+          details: [
+            "Implemented 2 particle systems for additional effects",
+            "Designed BlendTree for smooth transitions between walking and running animations",
+            "Added 2 script-driven animations for rain and bus stop triggers"
+          ]
+        }
+      ],
+      links: {
+        itch: {
+          url: "https://fufaaykaa.itch.io/piggy-pixie",
+          icon: "icons/play.png" 
+        },
+        documentation: {
+          url: "documents/pixie_doc.pdf",
+          icon: "icons/documentation.png"
+        },
+        trailer: {
+          url: "https://youtu.be/3CVWAksWvOU?si=CSrl4aCAiFWsjEGm",
+          icon: "icons/trailer.png"
+        }
+      },
+      slides: [
+        "images/animtion/pixie1.png",
+        "images/animtion/pixie2.png",
+        "images/animtion/pixie3.png",
+        "images/animtion/pixie4.png",
+        "images/animtion/pixie5.png",
+      ]
+    },
 };
 
 
