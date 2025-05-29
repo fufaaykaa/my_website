@@ -872,3 +872,8 @@ function changeModalSlide(n) {
 }
 
 document.querySelector('video').playbackRate = 1; // 1.5x speed
+
+document.addEventListener('click', function() {
+  const video = document.querySelector('video');
+  video.play().catch(e => console.log(e));
+}, { once: true }); // Runs only once

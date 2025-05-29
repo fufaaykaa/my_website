@@ -64,6 +64,10 @@ header p {
   pointer-events: none; /* Disables all interactions (clicks, pauses) */
 }
 
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
 /* Mobile (portrait) */
 @media (max-width: 768px) {
   .header-video-container {

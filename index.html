@@ -18,13 +18,21 @@
         <p>Game Design Student. 3D/2D Artist. Animatior.</p>
         <nav>
             <div class="header-video-container">
-    <video class="header-video" autoplay loop muted playsinline>
+    <video class="header-video" autoplay loop muted playsinline preload="auto" disablePictureInPicture>
       <source src="gifs/Originals/Characters.mp4" type="video/mp4">
       <!-- Fallback image if video fails -->
       <img src="fallback-image.jpg" alt="Header Background">
     </video>
   </div>
         </nav>
+
+        <script>
+  // Fallback: Force autoplay on first user tap
+  document.addEventListener('click', function() {
+    document.querySelector('video').play();
+  }, { once: true });
+</script>
+
     </header>
 
     <div class="slideshow-container">
