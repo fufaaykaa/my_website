@@ -870,3 +870,5 @@ function changeModalSlide(n) {
   // Reset the interval timer whenever manually changing slides
   startModalSlideshow();
 }
+
+document.querySelector('video').playbackRate = 1; // 1.5x speed
