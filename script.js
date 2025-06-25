@@ -757,7 +757,7 @@ const projects = {
           ]
         },
         {
-          title: "Cutscene Design",
+          title: "📜 Cutscene Design",
           details: [
             "Dialogue System Set Up",
             "DIalogues Text for 2 Characters",
