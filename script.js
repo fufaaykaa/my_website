@@ -778,7 +778,7 @@ const projects = {
           icon: "icons/play.png" 
         },
         documentation: {
-          url: "documents/DDR_Documentation",
+          url: "documents/DDR_Documentation.pdf",
           icon: "icons/documentation.png"
         },
       },
