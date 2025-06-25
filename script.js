@@ -653,7 +653,7 @@ const projects = {
           title: "🫶 3D Modeling & Texturing",
           details: [
             "Created the 3D model of the character",
-            "Designed and applied character texture"
+            "Designed and applied character's texture"
           ]
         },
         {
@@ -717,6 +717,76 @@ const projects = {
         "images/animation/pixie3.png",
         "images/animation/pixie4.png",
         "images/animation/pixie5.png",
+      ]
+    },
+    project10: {
+      title: "Drunk Döner RPG (DDR)",
+      banner: "images/ddr/banner.png",
+      color: "#6d292e", 
+      description: "'Drunk Döner Kebab (DDR)' is a game about the protagonist who got too drunk and ended up in debt in a kebab shop somewhere in Berlin. The goal is to earn enough money during the night to be released. This game was developed in the 'University of Europe for Applied Sciences', as the part of the class 'Game a Week' (supervised by: Viktor Pekar).",
+      contributions: [
+        {
+          title: "🫶 3D Character Design",
+          details: [
+            "Created the 3D model of 10 NPCs",
+            "Designed and applied character's texture"
+          ]
+        },
+        {
+          title: "👀 3D Characters' Animations",
+          details: [
+            "Idle",
+            "Walking",
+            "Arguing (only for the Döner Shop Owner Character)",
+          ]
+        },
+        {
+          title: "🌼 3D Environment Design",
+          details: [
+            "Designed the layout of the models",
+            "Created 1 additional Character Model",
+          ]
+        },
+        {
+          title: "🎨 UI Design",
+          details: [
+            "Main Menu Design",
+            "Credits Design",
+            "Tutorials Design",
+            "Pause Menu Design"
+          ]
+        },
+        {
+          title: "Cutscene Design",
+          details: [
+            "Dialogue System Set Up",
+            "DIalogues Text for 2 Characters",
+            "Scene Layout"
+          ]
+        },
+        {
+          title: "🔊 Sound Design",
+          details: [
+            "Audio Manager Script",
+            "Background Music Selection and Implementation",
+          ]
+        }
+      ],
+      links: {
+        itch: {
+          url: "https://rast0k.itch.io/ddr-kebab",
+          icon: "icons/play.png" 
+        },
+        documentation: {
+          url: "documents/DDR_Documentation",
+          icon: "icons/documentation.png"
+        },
+      },
+      slides: [
+        "images/ddr/slide1.png",
+        "images/ddr/slide2.png",
+        "images/ddr/slide3.png",
+        "images/ddr/slide4.png",
       ]
     },
 };
