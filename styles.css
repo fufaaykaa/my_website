@@ -288,7 +288,7 @@ footer {
 }
 
 .projects-list h2 {
-  font-size: 8rem;
+  font-size: 4rem;
   text-align: center;
   margin-bottom: 3rem;
   position: relative;
@@ -634,6 +634,190 @@ footer {
   }
 }
 
+/* ===== JOBS LIST ===== */
+.jobs-list {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.jobs-list h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  color: #fff;
+}
+
+.jobs-list h2::after {
+content: '';
+position: absolute;
+width: 600px;
+height: 3px;
+background: linear-gradient(90deg, transparent, #fff, transparent);
+bottom: -15px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 100%));
+  gap: 3rem;
+  margin-top: 4rem;
+
+  justify-items: center; /* centers cards inside columns */
+}
+
+.job-card {
+  background: rgba(30, 30, 30, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.job-gif {
+  height: 200px;
+  overflow: hidden;
+}
+
+.job-gif img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.job-info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-info h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0.4rem 0 0.2rem;
+  color: #fff;
+}
+
+.job-info h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.1rem;
+  color: #fff;
+}
+
+.job-meta {
+  text-align: center;
+  margin: 0.2rem 0 0.2rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVE JOBS ===== */
+@media (max-width: 768px) {
+  .jobs-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .jobs-list h2 {
+      font-size: 4rem;
+  }
+  
+  .jobs-list h2::after {
+      width: 250px;
+  }
+
+  .job-info h3 {
+      font-size: 1.3rem;
+  }
+}
+
+/* ===== EXPERIENCE SECTION ===== */
+
+.experience {
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 0 2rem;
+  color: #fff;
+}
+
+.experience-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.experience-title::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* COLUMNS LAYOUT */
+.experience-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  position: relative;
+}
+
+/* VERTICAL LINE (same style as horizontal) */
+.experience-columns::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  background: linear-gradient(180deg, transparent, #fff, transparent);
+  transform: translateX(-50%);
+}
+
+/* SUBTITLES */
+.experience-subtitle {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* make cards narrower inside column */
+.experience-col .jobs-grid {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 768px) {
+
+  .experience-columns {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .experience-columns::before {
+    display: none;
+  }
+
+  .experience-title::after {
+    width: 250px;
+  }
+}
+
+
+
 /* About Me Section */
 .about-me-section {
 max-width: 1200px;
@@ -643,7 +827,7 @@ color: white;
 }
 
 .about-me-section h2 {
-font-size: 2.5rem;
+font-size: 4rem;
 text-align: center;
 margin-bottom: 3rem;
 position: relative;

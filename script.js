@@ -291,74 +291,7 @@ const projects = {
         "images/medieval/slide4.png"
       ]
     },
-    project4: {
-      title: "Devolution",
-      banner: "images/devolution/dev_banner.png",
-      color: "#bc581c", 
-      description: "Devolution is a game design focused project exploring the creative process and challenges of game development, consisting of exhibitions, interviews, lectures, an archive and so on. Each Devolution event / exhibition focalises on the evolution of a game through the exhibition of prototypes and interim versions and an in-depth conversation with the developers. During the last years Devolution dismantled the games and worked with the developers of The Curious Expedition, Shift Happens and Thumper.",
-      contributions: [
-        {
-          title: "🌞 Role: PR & Social Media Team Lead",
-          details: [
-          ]
-        },
-        {
-          title: "📊 Social Media Strategy:",
-          details: [
-            "Developed the overall social media strategy for 3 social media accounts",
-            "Adjust amd improve this strategy depending on the audience's reaction"
-          ]
-        },
-        {
-          title: "🗓 Task & Team Management:",
-          details: [
-            "Distribute tasks among team members based on their preferences and team's needs",
-            "Created a structured timeline for all tasks, update this timeline twice a week",
-            "Organize meetings for the team"
-          ]
-        },
-        {
-          title: "📲 Content Planning & Creation:",
-          details: [
-            "Designed timetable of the post, update this timetable frequently",
-            "Gather materials for content (videos, images, interviews, etc.)",
-            "Edit and cut videos"
-          ]
-        },
-        {
-          title: "🖼 Exhibition Planning & Visual Content:",
-          details: [
-            "Prepare a strategy for future 'Devolution' exhibitions",
-            "Handle the process of creating a visual content to be showcased at exhibitions",
-          ]
-        },
-        {
-          title: "A big part of imformation is related to the future plans and releases of the 'Devolution' project, therefore the information is private and I can't talk about it in details",
-          details: [
-          ]
-        },
-      ],
-      links: {
-        instagram: {
-          url: "https://www.instagram.com/devolutionbln",
-          icon: "icons/insta.png" 
-        },
-        bluesky: {
-          url: "https://bsky.app/profile/devolutionbln.bsky.social",
-          icon: "icons/bluesky.png" 
-        },
-        mastodon: {
-          url: "https://sunny.garden/@devolution",
-          icon: "icons/mastodon.png"
-        }
-      },
-      slides: [
-        "images/devolution/post1.png",
-        "images/devolution/post2.png",
-        "images/devolution/post3.png",
-        "images/devolution/post4.png",
-      ]
-    },
+
     project5: {
       title: "Smash!!!",
       banner: "images/smash/banner_smash.png",
@@ -791,6 +724,264 @@ const projects = {
     },
 };
 
+const experiences = {
+  job1: {
+    type: "job",
+    title: "Level Design Intern",
+    company: "Pokoko Studio",
+    period: "08/2025 — 12/2025",
+    banner: "images/pokoko/ArcherHeroes_Banner.webp",
+    color: "#347522",
+
+    description: "I completed a 4-month internship as a Level Design Intern at Pokoko Studio, a Berlin-based indie mobile game developer. My work focused on designing, balancing, and playtesting game levels in Unity, where I created ~30 event levels, ~25 main progression levels, and the final boss stage, as well as prototype levels for a new project. I also performed QA testing, localization fixes, and market research, while collaborating closely with a small interdisciplinary team. The internship strengthened my level design methodology, difficulty balancing, and professional workflow skills in a real production environment.",
+
+    responsibilities: [
+      {
+        title: "♾️ Level Design",
+        details: [
+          "Designed Daily Event levels",
+          "Designed Main levels",
+          "Balanced levels difficulty",
+          "Polished old levels"
+
+        ]
+      },
+      {
+        title: "📝 QA & Testing",
+        details: [
+          "Organized playtest sessions",
+          "Tested every game update",
+          "Maintaned playtest feedback"
+        ]
+      },
+      {
+        title: "👥 Market Research",
+        details: [
+          "Conducted research and documented potential collaborations"
+        ]
+      },
+      {
+        title: "🤫 Prototyping",
+        details: [
+          "Additional responsibilities under NDA"
+        ]
+      },
+      {
+        title: "Credits",
+        details: [
+          "Game banner / key art © [Pokoko Studio]. Used for portfolio demonstration purposes."
+        ]
+      }
+    ],
+
+    links: {
+        apple: {
+          url: "https://apps.apple.com/sb/app/archer-heroes-tower-defense/id6504802483",
+          icon: "icons/apple.png" 
+        },
+        android: {
+          url: "https://play.google.com/store/apps/details?id=com.pokokoStudio.ArcherDefense",
+          icon: "icons/android.png"
+        },
+      },
+
+    slides: [
+      "images/pokoko/slide1.png",
+      "images/pokoko/slide2.png",
+      "images/pokoko/slide3.png",
+      "images/pokoko/slide4.png",
+      "images/pokoko/slide5.png",
+      "images/pokoko/slide6.png",
+      "images/pokoko/slide7.png"
+    ]
+  },
+
+  job2: {
+
+    type: "job",
+    title: "Non-profit Game Project Contributor",
+    company: "Devolution",
+    period: "10/2024 — now",
+    banner: "images/devolution/dev_banner.png",
+    color: "#bc581c",
+     
+      description: "Devolution is a game design focused project exploring the creative process and challenges of game development, consisting of exhibitions, interviews, lectures, an archive and so on. Each Devolution event / exhibition focalises on the evolution of a game through the exhibition of prototypes and interim versions and an in-depth conversation with the developers. During the last years Devolution dismantled the games and worked with the developers of The Curious Expedition, Shift Happens and Thumper.",
+      responsibilities: [
+        {
+          title: "🌞 Role: PR Team Lead & Project Contributor",
+          details: [
+          ]
+        },
+        {
+          title: "📊 PR & Communication:",
+          details: [
+            "Develop social media strategy across three platforms",
+            "Created several Blog Posts on the official website",
+            "Plan and maintain content schedules",
+            "Collect and organize materials for content production (videos, images, interviews, etc.)",
+            "Edit photos and videos for promotional use",
+            "Create visual assets and maintain consistent visual style across projects"
+          ]
+        },
+         {
+          title: "🙏🏼 Production Support:",
+          details: [
+            "Produce and organize digital visual content",
+            "Assist with on-site exhibition organization",
+            "Support task management and meetings scheduling"
+          ]
+        },
+      ],
+
+      projects: [
+
+    {
+      title: "🧡 Pippin Barr x Devolution: It is as if you were... (@ A MAZE. / Berlin 2025)",
+      details: [
+        "Managed inventory needs, sourced materials, and purchased supplies. ",
+        "Assisted in designing the exhibition's visual concept",
+        "Hands-on contribution: painted, assembled, and constructed exhibition stations",
+        "Filmed/edited behind-the-scenes content",
+        "Produced social media posts (event announcements, exhibition description, etc)"
+      ]
+    },
+
+    {
+      title: "🔒 On-going Project (Under NDA)",
+      details: [
+        "Production support",
+        "Other details are unavailable until release"
+      ]
+    }
+
+  ],
+
+      links: {
+        instagram: {
+          url: "https://www.instagram.com/devolutionbln",
+          icon: "icons/insta.png" 
+        },
+        bluesky: {
+          url: "https://bsky.app/profile/devolutionbln.bsky.social",
+          icon: "icons/bluesky.png" 
+        },
+        mastodon: {
+          url: "https://sunny.garden/@devolution",
+          icon: "icons/mastodon.png"
+        },
+        website: {
+          url: "https://devolution.online/it-is-as-if-you-were-recap/",
+          icon: "icons/website_blue.png"
+        },
+      },
+      slides: [
+        "images/devolution/post1.png",
+        "images/devolution/post2.png",
+        "images/devolution/post3.png",
+        "images/devolution/post4.png",
+      ]
+    },
+    job3: {
+
+    type: "job",
+    title: "Exhibitor",
+    company: "@ A MAZE. / Berlin 2025",
+    period: "05/2025",
+    banner: "/images/amaze_open_screens/banner.png",
+    color: "#b26f9c",
+     
+      description: "Together with Marianna Koszutska, we presented our game InBetween at the A MAZE. Festival, an international festival dedicated to independent and experimental games. The exhibition involved presenting the game to visitors, observing play sessions, and discussing the design and development process. The event provided valuable feedback and experience in showcasing a project in a public exhibition environment.",
+      responsibilities: [
+        {
+          title: "💻 Game Exhibiting",
+          details: [
+            "Designed and developed an original game 'InBetween'",
+            "Managed technical logistics",
+            "Created branded merchandise: Stickers, T-shirts, and business cards",
+            "Showcased the game directly to players, gathering live feedback and analytics",
+            "Filmed/edited behind-the-scenes content",
+            "Produced social media posts (event announcements, exhibition description, etc.)"
+          ],
+        },
+      {
+          title: "Credits",
+          details: [
+            "'@ A MAZE. / Berlin 2025' logo is a registered trademark of 'A MAZE. / Berlin'. Used for identification purposes only."
+          ]
+        },
+      ],
+      links: {
+        website: {
+          url: "https://2025.amaze-berlin.de/openscreens/between/",
+          icon: "icons/website.png"
+        },
+        linkedin: {
+          url: "https://www.linkedin.com/feed/update/urn:li:activity:7336020393197010946/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFsrNFEB-hn1ST5Xm7epRp73Y3bVt2fSh68",
+          icon: "icons/linked_in.png" 
+        },
+        instagram: {
+          url: "https://www.instagram.com/reel/DJqFvE2o2Rm/?igsh=MXF2cWRsNDh1NG94Nw==",
+          icon: "icons/insta_black.png" 
+        },
+      },
+      slides: [
+        "images/amaze_open_screens/slide1.jpg",
+        "images/amaze_open_screens/slide2.jpg",
+        "images/amaze_open_screens/slide3.jpeg",
+        "images/amaze_open_screens/slide4.jpg"
+      ]
+    },
+    job4: {
+
+    type: "job",
+    title: "Festival Volunteer",
+    company: "Games Ground",
+    period: "11/2024 & 11/2025",
+    banner: "/images/games_ground/banner.png",
+    color: "#642ba6",
+     
+      description: "Supported the organization and daily operations of the Games Ground Festival, assisting with event logistics, visitor guidance, and information services while helping ensure the smooth execution of festival activities.",
+      responsibilities: [
+        {
+          title: "📋 Festival Operations",
+          details: [
+            "Assisted in planning and executing festival events",
+            "Helped design informational booths",
+            "Managed and organized operational data for the closing-day event"
+          ],
+        },
+        {
+          title: "🙋🏼‍♀️ Visitors Support",
+          details: [
+            "Provided front-desk support at the festival information point",
+            "Guided visitors and explained key information",
+            "Assisted with wayfinding and orientation"
+          ],
+        },
+        {
+          title: "🙏🏼 Team Coordination",
+          details: [
+            "Mentored new volunteers",
+            "Monitored rooms and equipment during closing hours"
+          ],
+        },
+      {
+          title: "Credits",
+          details: [
+            "'Games Ground' logo is a registered trademark of 'Games Ground'. Used for identification purposes only."
+          ]
+        },
+      ],
+      slides: [
+        "images/games_ground/slide1.jpeg",
+        "images/games_ground/slide2.jpg",
+        "images/games_ground/slide3.jpeg",
+        "images/games_ground/slide4.jpg"
+      ]
+    },
+};
+
+
 
 // Modal functionality
 const modal = document.getElementById("project-modal");
@@ -802,10 +993,13 @@ let modalSlideInterval; // Variable to hold the interval
 document.querySelectorAll(".more-info-btn").forEach(btn => {
   btn.addEventListener("click", function(e) {
       e.preventDefault();
-      const projectId = this.getAttribute("data-project");
-      if (projectId) openProjectModal(projectId);
+      const id = this.dataset.item;
+
+      if (projects[id]) openProjectModal(projects[id]);
+      else if (experiences[id]) openExperienceModal(experiences[id]);
   });
 });
+
 
 // Close modal
 closeBtn.addEventListener("click", closeProjectModal);
@@ -817,8 +1011,7 @@ window.addEventListener("click", function(e) {
   }
 });
 
-function openProjectModal(projectId) {
-  const project = projects[projectId];
+function openProjectModal(project) {
   if (!project) return;
   
   // Set project data
@@ -947,3 +1140,121 @@ document.addEventListener('click', function() {
   const video = document.querySelector('video');
   video.play().catch(e => console.log(e));
 }, { once: true }); // Runs only once
+
+function openExperienceModal(exp) {
+
+  document.getElementById("modal-description").textContent = exp.description;
+  document.getElementById("modal-banner").src = exp.banner;
+  modalLeftBg.style.backgroundColor = exp.color;
+
+  const linksContainer = document.querySelector('.project-links');
+if (!linksContainer) return;   // prevents runtime crash
+
+linksContainer.innerHTML = '';
+
+if (exp.links) {
+  Object.entries(exp.links).forEach(([key, linkData]) => {
+      const link = document.createElement('a');
+      link.href = linkData.url;
+      link.target = "_blank";
+      link.className = "project-link";
+      link.innerHTML = `<img src="${linkData.icon}" alt="${key}">`;
+
+      if (linkData.url.endsWith('.pdf')) {
+          link.download = '';
+      }
+
+      linksContainer.appendChild(link);
+  });
+}
+
+  // responsibilities
+  const container = document.getElementById("modal-contributions");
+  container.innerHTML = "";
+
+  exp.responsibilities.forEach(section => {
+      const item = document.createElement("div");
+      item.className = "contribution-item";
+
+      const title = document.createElement("div");
+      title.className = "contribution-title";
+      title.textContent = section.title;
+
+      const ul = document.createElement("ul");
+
+      section.details.forEach(d => {
+          const li = document.createElement("li");
+          li.textContent = d;
+          ul.appendChild(li);
+      });
+
+      item.appendChild(title);
+      item.appendChild(ul);
+      container.appendChild(item);
+  });
+
+// ---- Experience Projects ----
+
+if (exp.projects) {
+
+  const divider = document.createElement("div");
+  divider.className = "contribution-title";
+  divider.textContent = "Projects";
+
+  container.appendChild(divider);
+
+  exp.projects.forEach(project => {
+
+      const item = document.createElement("div");
+      item.className = "contribution-item";
+
+      const title = document.createElement("div");
+      title.className = "contribution-title";
+      title.textContent = project.title;
+
+      const ul = document.createElement("ul");
+
+      project.details.forEach(d => {
+          const li = document.createElement("li");
+          li.textContent = d;
+          ul.appendChild(li);
+      });
+
+      item.appendChild(title);
+      item.appendChild(ul);
+      container.appendChild(item);
+
+  });
+}
+
+  // slideshow
+  const slideshow = document.getElementById("modal-slideshow");
+  slideshow.innerHTML = "";
+
+  exp.slides.forEach((slide, i) => {
+      const img = document.createElement("img");
+      img.src = slide;
+      img.className = i === 0 ? "slide active" : "slide";
+      slideshow.appendChild(img);
+  });
+
+  const prevBtn = document.createElement("button");
+  prevBtn.className = "prev";
+  prevBtn.innerHTML = "❮";
+  prevBtn.onclick = () => changeModalSlide(-1);
+
+  const nextBtn = document.createElement("button");
+  nextBtn.className = "next";
+  nextBtn.innerHTML = "❯";
+  nextBtn.onclick = () => changeModalSlide(1);
+
+  slideshow.appendChild(prevBtn);
+  slideshow.appendChild(nextBtn);
+
+  modalSlideIndex = 0;
+  startModalSlideshow();
+
+  modal.style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+
