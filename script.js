@@ -887,7 +887,7 @@ const experiences = {
     title: "Exhibitor",
     company: "@ A MAZE. / Berlin 2025",
     period: "05/2025",
-    banner: "/images/amaze_open_screens/banner.png",
+    banner: "images/amaze_open_screens/banner.png",
     color: "#b26f9c",
      
       description: "Together with Marianna Koszutska, we presented our game InBetween at the A MAZE. Festival, an international festival dedicated to independent and experimental games. The exhibition involved presenting the game to visitors, observing play sessions, and discussing the design and development process. The event provided valuable feedback and experience in showcasing a project in a public exhibition environment.",
@@ -927,7 +927,7 @@ const experiences = {
       slides: [
         "images/amaze_open_screens/slide1.jpg",
         "images/amaze_open_screens/slide2.jpg",
-        "images/amaze_open_screens/slide3.jpeg",
+        "images/amaze_open_screens/slide3.jpg",
         "images/amaze_open_screens/slide4.jpg"
       ]
     },
@@ -937,7 +937,7 @@ const experiences = {
     title: "Festival Volunteer",
     company: "Games Ground",
     period: "11/2024 & 11/2025",
-    banner: "/images/games_ground/banner.png",
+    banner: "images/games_ground/banner.png",
     color: "#642ba6",
      
       description: "Supported the organization and daily operations of the Games Ground Festival, assisting with event logistics, visitor guidance, and information services while helping ensure the smooth execution of festival activities.",
@@ -973,9 +973,9 @@ const experiences = {
         },
       ],
       slides: [
-        "images/games_ground/slide1.jpeg",
+        "images/games_ground/slide1.jpg",
         "images/games_ground/slide2.jpg",
-        "images/games_ground/slide3.jpeg",
+        "images/games_ground/slide3.jpg",
         "images/games_ground/slide4.jpg"
       ]
     },
