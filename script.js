@@ -928,7 +928,7 @@ const experiences = {
         "images/amaze_open_screens/slide1.jpg",
         "images/amaze_open_screens/slide2.jpg",
         "images/amaze_open_screens/slide3.jpg",
-        "images/amaze_open_screens/slide4.jpg"
+        "images/amaze_open_screens/slide4.JPG"
       ],
     },
     job4: {
