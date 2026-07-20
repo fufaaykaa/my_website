@@ -722,6 +722,79 @@ const projects = {
         "images/ddr/slide4.png",
       ]
     },
+
+project11: {
+      title: "Mindset: The Forgotten Story",
+      banner: "images/mindset/banner.png",
+      color: "#4d3723", 
+      description: "A narrative-driven VR puzzle game where you can explore various corners of a mind and solve interactive puzzles to  reconstruct a fragmented story. Made as a Bachelor Project at UE Applied Sciences Berlin Game Design 2026.",
+      contributions: [
+        {
+          title: "🫶 3D Character Design",
+          details: [
+            "Created the 3D model of 2 NPCs",
+            "Designed and applied each character's texture"
+          ]
+        },
+        {
+          title: "👀 3D Characters' Animations",
+          details: [
+            "Base animations: Idle, Walking, Running, Waiting and otmorehers",
+            "Player-driven animations: Excitement, Fear, Surprise and more",
+          ]
+        },
+        {
+          title: "🔑 Tech Art",
+          details: [
+            "Shader Graphs",
+            "VFX and Particle systems",
+            "Lighting setup",
+            "Materials setup",
+            "Animation rigging",
+          ]
+        },
+        {
+          title: "🌼 3D Environment Design",
+          details: [
+            "Designed the layout of the models",
+            "Animations of the elements of the environment",
+          ]
+        },
+        {
+          title: "⚙️ Scripting",
+          details: [
+            "Animations control scripts",
+            "NPCs' behavior",
+            "Gameplay systems",
+          ]
+        },
+        {
+          title: "🔊 Sound Design",
+          details: [
+            "Sounds of character's animations",
+            "Audio manager scripts",
+            "Background sounds selection and implementation",
+          ]
+        }
+      ],
+      links: {
+        itch: {
+          url: "https://marianna-koszutska.itch.io/mindset",
+          icon: "icons/play.png" 
+        },
+        trailer: {
+          url: "https://www.youtube.com/watch?v=MWYCXhCsrkk",
+          icon: "icons/trailer.png"
+        }
+      },
+      slides: [
+        "images/mindset/slide1.png",
+        "images/mindset/slide2.png",
+        "images/mindset/slide3.png",
+        "images/mindset/slide4.png",
+        "images/mindset/slide5.png",
+      ]
+    },
 };
 
 const experiences = {
