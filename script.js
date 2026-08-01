@@ -659,7 +659,7 @@ const projects = {
       description: "'Drunk Döner Kebab (DDR)' is a game about the protagonist who got too drunk and ended up in debt in a kebab shop somewhere in Berlin. The goal is to earn enough money during the night to be released. This game was developed in the 'University of Europe for Applied Sciences', as the part of the class 'Game a Week' (supervised by: Viktor Pekar).",
       contributions: [
         {
-          title: "🫶 3D Character Design",
+          title: "🫶 3D Characters' Design",
           details: [
             "Created the 3D model of 10 NPCs",
             "Designed and applied character's texture"
