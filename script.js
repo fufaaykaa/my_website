@@ -788,6 +788,8 @@ project11: {
         }
       },
       slides: [
+        "images/mindset/slide_kk.jpeg",
+        "images/mindset/slide_lh.jpeg",
         "images/mindset/slide1.png",
         "images/mindset/slide2.png",
         "images/mindset/slide3.png",
